@@ -1,0 +1,1 @@
+../../../../../GHLCrashGuard/Classes/Container/NSString+GHLCrashGuard.h

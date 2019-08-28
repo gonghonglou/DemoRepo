@@ -1,0 +1,6 @@
+framework module GHLCrashGuard {
+  umbrella header "GHLCrashGuard-umbrella.h"
+
+  export *
+  module * { export * }
+}

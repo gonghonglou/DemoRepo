@@ -1,0 +1,6 @@
+framework module Pods_GHLCrashGuard_Tests {
+  umbrella header "Pods-GHLCrashGuard_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
