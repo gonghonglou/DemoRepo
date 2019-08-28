@@ -3,31 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		016D70967617C09495791D8C81EE50B4 /* GHLMediator+Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4DE56F329D0E87622A763111D718C3 /* GHLMediator+Home.m */; };
-		026C213C0B1675D93ED9DD9DA9CA2689 /* GHLMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F66A618F2229E773E25603C82FDA112 /* GHLMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1DBBA43F44F3CB8CD8BA25A734934D2A /* GHLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E6D89B74FCA27D54686A6221FEBF6E /* GHLHomeViewController.m */; };
-		1E92C3A9123AA28AB98F679DFEAD3EF5 /* GHLHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2539E147456ED90BB2078E92F52240EE /* GHLHomeViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1EC63081E6473B3196D93C55FD0F5388 /* selector_home.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F971F719735BCBC5CEAEC1E5BFBBF83 /* selector_home.m */; };
-		2720F576FE29FCD6BD27803540CEC8D8 /* target_home.h in Headers */ = {isa = PBXBuildFile; fileRef = C570E6F5372C836173B8F130F1814792 /* target_home.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		43B8DBC20EE7396451B83409B7C6968C /* selector_home.h in Headers */ = {isa = PBXBuildFile; fileRef = CEEE99F403E412CD513DB1D3423B96E6 /* selector_home.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4B8DAA9E344E600CEBF9C13703C0EF00 /* target_home.m in Sources */ = {isa = PBXBuildFile; fileRef = C568A9C72D6B519D7A0221E5A8FDD355 /* target_home.m */; };
-		5AFA42A4DF34387F6A50676DCFFC11C3 /* GHLSelectorService.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ACF6E38665FE2B75565E8CFC81AD78 /* GHLSelectorService.m */; };
-		6762DC500525E323E4179CBB3D7260CF /* GHLMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B6D772CBB16F50BD42B0529E30FEF0 /* GHLMediator.m */; };
-		7B1ECBABEE98460C3F18927F20EDD66B /* GHLMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3526316A7FC845819AD9FB02F507969C /* GHLMediator-dummy.m */; };
-		91C3A3A4F195035F569339FE4AF7F5E7 /* GHLHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F78CD2AA7E1B066571F644BE863523D6 /* GHLHome-dummy.m */; };
-		987BC6BFF71DFB51625D6E189282BEFD /* GHLSelectorService.h in Headers */ = {isa = PBXBuildFile; fileRef = 31932D1D73FB372499B6008B73B04786 /* GHLSelectorService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		016D70967617C09495791D8C81EE50B4 /* GHLMediator+Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 146B39DFAFE77275A23682F389AD31DD /* GHLMediator+Home.m */; };
+		026C213C0B1675D93ED9DD9DA9CA2689 /* GHLMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 44CF956822F96A5FE9BE719A5A854837 /* GHLMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DBBA43F44F3CB8CD8BA25A734934D2A /* GHLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7119AB78EF9407A778D701D02C76D840 /* GHLHomeViewController.m */; };
+		1E92C3A9123AA28AB98F679DFEAD3EF5 /* GHLHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E84F4140788DDE09B725D2695B0423 /* GHLHomeViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1EC63081E6473B3196D93C55FD0F5388 /* selector_home.m in Sources */ = {isa = PBXBuildFile; fileRef = 647B244609C206ADF4DF1B3F85048FD4 /* selector_home.m */; };
+		2720F576FE29FCD6BD27803540CEC8D8 /* target_home.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E15ED3908C0A3FC18FE987438DBC407 /* target_home.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		43B8DBC20EE7396451B83409B7C6968C /* selector_home.h in Headers */ = {isa = PBXBuildFile; fileRef = ED4C34B47BA626000A85416DA4ED3194 /* selector_home.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B8DAA9E344E600CEBF9C13703C0EF00 /* target_home.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A2CEA5933F3D8726531BA8A6EBF631 /* target_home.m */; };
+		5AFA42A4DF34387F6A50676DCFFC11C3 /* GHLSelectorService.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A89A3A2A162F395AEFAD4387B88BE7 /* GHLSelectorService.m */; };
+		6762DC500525E323E4179CBB3D7260CF /* GHLMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5C1EB8ED3423FB0A93B398CA99E77 /* GHLMediator.m */; };
+		7B1ECBABEE98460C3F18927F20EDD66B /* GHLMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 013DDEAF74C3D4BB2F999B1144533D4D /* GHLMediator-dummy.m */; };
+		91C3A3A4F195035F569339FE4AF7F5E7 /* GHLHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEE1782D1A6BEE6E8A1FF9DD70516F /* GHLHome-dummy.m */; };
+		987BC6BFF71DFB51625D6E189282BEFD /* GHLSelectorService.h in Headers */ = {isa = PBXBuildFile; fileRef = E20C574C6E9F852C0FBAD54B0EFD6E83 /* GHLSelectorService.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AA429435A7CC16BDF016163F31558C4D /* Pods-GHLDecouplingDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A168542C4029EA0B24FEB0B46278EF /* Pods-GHLDecouplingDemo-dummy.m */; };
-		AE5B25C77A0146DA7FF1E7FCE93B5C37 /* GHLSelectorService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBEBF25BE5F04204A6FD0C3122A528E /* GHLSelectorService-dummy.m */; };
-		B2834AE385F28385D6F1759A06BC379E /* GHLMediator+Home.h in Headers */ = {isa = PBXBuildFile; fileRef = FA286D638D99BF0BD43D7D54F5B539BB /* GHLMediator+Home.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B2B2EFEBC9818506026823A48FE494DF /* GHLRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EDE24E48B4E8E59D3718C39FE3349B6 /* GHLRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C1A1005FA369E95ACC300AD22988639E /* GHLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D11770617A9938007A0451046A35724 /* GHLRouter.m */; };
-		E76CE39450833F5B99C8804DB5390613 /* target.yaml in Resources */ = {isa = PBXBuildFile; fileRef = DBB90412A1FBFD49F7A281E21A366E94 /* target.yaml */; };
-		E9B4F7D300A131CBB9DEC6BD7B16F1E5 /* GHLRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B523EFE599DD52F4458DFE300753DEA0 /* GHLRouter-dummy.m */; };
-		F5E25EBBA8BA19C5B5F9EDE44714D0C1 /* target.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADBA03895B0911A6DB5FED3409BB9777 /* target.plist */; };
+		AE5B25C77A0146DA7FF1E7FCE93B5C37 /* GHLSelectorService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C228DB99BA860B7C4C25DD262A6D6A /* GHLSelectorService-dummy.m */; };
+		B2834AE385F28385D6F1759A06BC379E /* GHLMediator+Home.h in Headers */ = {isa = PBXBuildFile; fileRef = 942678476D2660D5F81403F1F3CE5236 /* GHLMediator+Home.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B2B2EFEBC9818506026823A48FE494DF /* GHLRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AE50DABEDCA0E449B9C2EAE9161AEB6 /* GHLRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1A1005FA369E95ACC300AD22988639E /* GHLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 186183D3B4B5C42BB1227F8701402CA3 /* GHLRouter.m */; };
+		E76CE39450833F5B99C8804DB5390613 /* target.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 881703919AFD1F5C47D05AD4C9C88CC6 /* target.yaml */; };
+		E9B4F7D300A131CBB9DEC6BD7B16F1E5 /* GHLRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2078D96DBF3C4341F30FA9C1D0F2DBE7 /* GHLRouter-dummy.m */; };
+		F5E25EBBA8BA19C5B5F9EDE44714D0C1 /* target.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2F27ABE215B83AE17D0B10C1949AFD8 /* target.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,62 +76,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08FEE51B1A9D4D12546EA42FDA7A1C74 /* ResourceBundle-GHLHome-GHLHome-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GHLHome-GHLHome-Info.plist"; sourceTree = "<group>"; };
+		013DDEAF74C3D4BB2F999B1144533D4D /* GHLMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHLMediator-dummy.m"; sourceTree = "<group>"; };
 		0D42D3AD13367BE4E67066125C0E756F /* libGHLRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGHLRouter.a; path = libGHLRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F66A618F2229E773E25603C82FDA112 /* GHLMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLMediator.h; path = GHLMediator/Classes/GHLMediator.h; sourceTree = "<group>"; };
+		0E8F08224115EF62ACF193740EC91626 /* GHLSelectorService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHLSelectorService.xcconfig; sourceTree = "<group>"; };
+		146B39DFAFE77275A23682F389AD31DD /* GHLMediator+Home.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GHLMediator+Home.m"; path = "GHLMediator/Classes/GHLMediator+Home.m"; sourceTree = "<group>"; };
+		186183D3B4B5C42BB1227F8701402CA3 /* GHLRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLRouter.m; path = GHLRouter/Classes/GHLRouter.m; sourceTree = "<group>"; };
+		2078D96DBF3C4341F30FA9C1D0F2DBE7 /* GHLRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHLRouter-dummy.m"; sourceTree = "<group>"; };
 		216F21FAD89A31BE9275981D9B891429 /* libGHLMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGHLMediator.a; path = libGHLMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		21B6D772CBB16F50BD42B0529E30FEF0 /* GHLMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLMediator.m; path = GHLMediator/Classes/GHLMediator.m; sourceTree = "<group>"; };
 		21CA2F2EC70BA12AF0121BD5F2BB0C03 /* libGHLSelectorService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGHLSelectorService.a; path = libGHLSelectorService.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2539E147456ED90BB2078E92F52240EE /* GHLHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLHomeViewController.h; path = GHLHome/Classes/GHLHomeViewController.h; sourceTree = "<group>"; };
-		2896DC823CA8741E7133D16E4CC2E752 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		27D92DDCC35741E660B4A40999D8DE1F /* ResourceBundle-GHLRouter-GHLRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GHLRouter-GHLRouter-Info.plist"; sourceTree = "<group>"; };
+		28F236AF4151FB8E15F61606A9AC4B4C /* GHLMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHLMediator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2B8BD1F5477F35A8E57063E93B95849F /* libPods-GHLDecouplingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GHLDecouplingDemo.a"; path = "libPods-GHLDecouplingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3077737EDDED3E158540687F7B0248E2 /* GHLMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHLMediator-prefix.pch"; sourceTree = "<group>"; };
-		31932D1D73FB372499B6008B73B04786 /* GHLSelectorService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLSelectorService.h; path = GHLSelectorService/Classes/GHLSelectorService.h; sourceTree = "<group>"; };
 		34875D3E4DEDB8B446981CF433061896 /* libGHLHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGHLHome.a; path = libGHLHome.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3526316A7FC845819AD9FB02F507969C /* GHLMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHLMediator-dummy.m"; sourceTree = "<group>"; };
 		37866F4B3C20B356ACCBA0E3C8FAE253 /* GHLHome.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GHLHome.bundle; path = "GHLHome-GHLHome.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EDE24E48B4E8E59D3718C39FE3349B6 /* GHLRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLRouter.h; path = GHLRouter/Classes/GHLRouter.h; sourceTree = "<group>"; };
-		3F605020AE5A63953ADA95956D9FAF4D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		423534638611D8AD7D1D595772AF24BE /* GHLMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHLMediator.xcconfig; sourceTree = "<group>"; };
+		39E4795FBF6147E4A0615DCE89858B3F /* GHLMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHLMediator-prefix.pch"; sourceTree = "<group>"; };
+		44CF956822F96A5FE9BE719A5A854837 /* GHLMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLMediator.h; path = GHLMediator/Classes/GHLMediator.h; sourceTree = "<group>"; };
 		4785ED83B5372B309202301603FBAABA /* GHLRouter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GHLRouter.bundle; path = "GHLRouter-GHLRouter.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D11770617A9938007A0451046A35724 /* GHLRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLRouter.m; path = GHLRouter/Classes/GHLRouter.m; sourceTree = "<group>"; };
+		47E84F4140788DDE09B725D2695B0423 /* GHLHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLHomeViewController.h; path = GHLHome/Classes/GHLHomeViewController.h; sourceTree = "<group>"; };
+		498E614236320770A9CF76107FFF18E7 /* ResourceBundle-GHLHome-GHLHome-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GHLHome-GHLHome-Info.plist"; sourceTree = "<group>"; };
 		55E9F125E4DE0342AF7DE2BFC88C59B7 /* Pods-GHLDecouplingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHLDecouplingDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		5A34B82C3D00F8F539220604ACE4B35B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		5F971F719735BCBC5CEAEC1E5BFBBF83 /* selector_home.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = selector_home.m; path = GHLHome/Classes/selector_home.m; sourceTree = "<group>"; };
 		63330D6F3C5DC986E7C32ABF87DF1AED /* Pods-GHLDecouplingDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GHLDecouplingDemo-resources.sh"; sourceTree = "<group>"; };
-		6E4DE56F329D0E87622A763111D718C3 /* GHLMediator+Home.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GHLMediator+Home.m"; path = "GHLMediator/Classes/GHLMediator+Home.m"; sourceTree = "<group>"; };
+		647B244609C206ADF4DF1B3F85048FD4 /* selector_home.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = selector_home.m; path = GHLHome/Classes/selector_home.m; sourceTree = "<group>"; };
+		6AE50DABEDCA0E449B9C2EAE9161AEB6 /* GHLRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLRouter.h; path = GHLRouter/Classes/GHLRouter.h; sourceTree = "<group>"; };
+		6CCEE1782D1A6BEE6E8A1FF9DD70516F /* GHLHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHLHome-dummy.m"; sourceTree = "<group>"; };
+		70D5C1EB8ED3423FB0A93B398CA99E77 /* GHLMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLMediator.m; path = GHLMediator/Classes/GHLMediator.m; sourceTree = "<group>"; };
+		7119AB78EF9407A778D701D02C76D840 /* GHLHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLHomeViewController.m; path = GHLHome/Classes/GHLHomeViewController.m; sourceTree = "<group>"; };
+		77A89A3A2A162F395AEFAD4387B88BE7 /* GHLSelectorService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLSelectorService.m; path = GHLSelectorService/Classes/GHLSelectorService.m; sourceTree = "<group>"; };
+		77C228DB99BA860B7C4C25DD262A6D6A /* GHLSelectorService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHLSelectorService-dummy.m"; sourceTree = "<group>"; };
+		786584EAD3B06A9368E7122DBA1F857E /* GHLRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHLRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7C163C86A94087A4EE75A01E94FCA19E /* Pods-GHLDecouplingDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHLDecouplingDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		80202547C182A34A4EF5BD5A1740D44B /* ResourceBundle-GHLRouter-GHLRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GHLRouter-GHLRouter-Info.plist"; sourceTree = "<group>"; };
-		894D181229696285C6ACB9C11F964B9F /* GHLRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHLRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9972D8EA5A2D2DD7DEF526C2BA5A6178 /* GHLSelectorService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHLSelectorService-prefix.pch"; sourceTree = "<group>"; };
+		7E15ED3908C0A3FC18FE987438DBC407 /* target_home.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = target_home.h; path = GHLHome/Classes/target_home.h; sourceTree = "<group>"; };
+		81D609E4521C746BB675921B5E4EF428 /* GHLSelectorService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHLSelectorService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		881703919AFD1F5C47D05AD4C9C88CC6 /* target.yaml */ = {isa = PBXFileReference; includeInIndex = 1; name = target.yaml; path = GHLHome/Config/target.yaml; sourceTree = "<group>"; };
+		88770BFD014F7E076666A1E33BB8D7E2 /* GHLRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHLRouter-prefix.pch"; sourceTree = "<group>"; };
+		8B95EE1F1DDB9E6A63EF13509F7B657B /* GHLRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHLRouter.xcconfig; sourceTree = "<group>"; };
+		942678476D2660D5F81403F1F3CE5236 /* GHLMediator+Home.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GHLMediator+Home.h"; path = "GHLMediator/Classes/GHLMediator+Home.h"; sourceTree = "<group>"; };
+		99EEE9E57CC22B3A045DDD3A20699780 /* GHLMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHLMediator.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1CAE2ECB20E4EBE854481B760797A8C /* GHLHome.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHLHome.xcconfig; sourceTree = "<group>"; };
 		A3A168542C4029EA0B24FEB0B46278EF /* Pods-GHLDecouplingDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GHLDecouplingDemo-dummy.m"; sourceTree = "<group>"; };
-		A3AF88ECD2DDD355543BBE38889CF931 /* GHLMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHLMediator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A9E6D89B74FCA27D54686A6221FEBF6E /* GHLHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLHomeViewController.m; path = GHLHome/Classes/GHLHomeViewController.m; sourceTree = "<group>"; };
-		ABBEBF25BE5F04204A6FD0C3122A528E /* GHLSelectorService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHLSelectorService-dummy.m"; sourceTree = "<group>"; };
-		ADBA03895B0911A6DB5FED3409BB9777 /* target.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = target.plist; path = GHLRouter/Config/target.plist; sourceTree = "<group>"; };
-		B523EFE599DD52F4458DFE300753DEA0 /* GHLRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHLRouter-dummy.m"; sourceTree = "<group>"; };
-		B68EB61D702B52B9E32C8874B114403F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		BAA2C4BD372137709FB3D0CB8CC40492 /* GHLSelectorService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHLSelectorService.xcconfig; sourceTree = "<group>"; };
-		BBEE6C43D77BFD859477A7319AE5FC5E /* GHLRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHLRouter-prefix.pch"; sourceTree = "<group>"; };
-		BC5A0A57775F8755223159BB78CC3C24 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		BFAE717F6D6498AAC3F11C58758F0B81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C568A9C72D6B519D7A0221E5A8FDD355 /* target_home.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = target_home.m; path = GHLHome/Classes/target_home.m; sourceTree = "<group>"; };
-		C570E6F5372C836173B8F130F1814792 /* target_home.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = target_home.h; path = GHLHome/Classes/target_home.h; sourceTree = "<group>"; };
+		B99A8611F74C058990375BCF6ACC132C /* GHLSelectorService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHLSelectorService-prefix.pch"; sourceTree = "<group>"; };
+		BB1682FAFD5022C7AE8489C78F972DFB /* GHLHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHLHome-prefix.pch"; sourceTree = "<group>"; };
+		BB41DF137BD97D28746A40DD724F0512 /* GHLHome.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHLHome.xcconfig; sourceTree = "<group>"; };
+		C2F27ABE215B83AE17D0B10C1949AFD8 /* target.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = target.plist; path = GHLRouter/Config/target.plist; sourceTree = "<group>"; };
 		C87AA621017BA22663DFFC08756736E1 /* Pods-GHLDecouplingDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GHLDecouplingDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CA9BB421DFFFF877FC30C555613C62E4 /* Pods-GHLDecouplingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHLDecouplingDemo.release.xcconfig"; sourceTree = "<group>"; };
-		CAB4EF5053121B7877E0FF25212D4036 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CE18C884EB433A69B65585772E5C9CF3 /* GHLRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHLRouter.xcconfig; sourceTree = "<group>"; };
-		CEEE99F403E412CD513DB1D3423B96E6 /* selector_home.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = selector_home.h; path = GHLHome/Classes/selector_home.h; sourceTree = "<group>"; };
-		D34D662136E7BE41534B89D28369C116 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D6E30AC6B07F2E8A7F5BD0EE841F4C2A /* GHLSelectorService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHLSelectorService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D70BCBED164ED227D943D31CC293CEC7 /* GHLHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHLHome-prefix.pch"; sourceTree = "<group>"; };
-		DBB90412A1FBFD49F7A281E21A366E94 /* target.yaml */ = {isa = PBXFileReference; includeInIndex = 1; name = target.yaml; path = GHLHome/Config/target.yaml; sourceTree = "<group>"; };
-		E4ACF6E38665FE2B75565E8CFC81AD78 /* GHLSelectorService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLSelectorService.m; path = GHLSelectorService/Classes/GHLSelectorService.m; sourceTree = "<group>"; };
-		F78CD2AA7E1B066571F644BE863523D6 /* GHLHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHLHome-dummy.m"; sourceTree = "<group>"; };
-		F936736461CB315C7FDEFFD6F42AEBC5 /* GHLHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHLHome.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FA286D638D99BF0BD43D7D54F5B539BB /* GHLMediator+Home.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GHLMediator+Home.h"; path = "GHLMediator/Classes/GHLMediator+Home.h"; sourceTree = "<group>"; };
+		E20C574C6E9F852C0FBAD54B0EFD6E83 /* GHLSelectorService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLSelectorService.h; path = GHLSelectorService/Classes/GHLSelectorService.h; sourceTree = "<group>"; };
+		ED4C34B47BA626000A85416DA4ED3194 /* selector_home.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = selector_home.h; path = GHLHome/Classes/selector_home.h; sourceTree = "<group>"; };
+		EE8BB18974A0551C2AA9E52695433EE0 /* GHLHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHLHome.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F3A2CEA5933F3D8726531BA8A6EBF631 /* target_home.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = target_home.m; path = GHLHome/Classes/target_home.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,17 +179,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19F3B85E26DF71D67914A07C1395C7BC /* GHLRouter */ = {
+		024896443F3B349C41E13FFC3F067D38 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3EDE24E48B4E8E59D3718C39FE3349B6 /* GHLRouter.h */,
-				4D11770617A9938007A0451046A35724 /* GHLRouter.m */,
-				F95D2CE89BB927493B47DA6D4F3E4AEC /* Pod */,
-				E8E87C4F57C96B4E83FA48A0FD556FDB /* Resources */,
-				66564AA832216584CEA04DC64909D057 /* Support Files */,
+				28F236AF4151FB8E15F61606A9AC4B4C /* GHLMediator.podspec */,
 			);
-			name = GHLRouter;
-			path = ../../GHLRouter;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		19AD6B191496FAF3E5A788DFDB1379F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				881703919AFD1F5C47D05AD4C9C88CC6 /* target.yaml */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		1FE3E07E237B07D8355ED869076D1C17 /* Pods-GHLDecouplingDemo */ = {
@@ -222,124 +217,127 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3DB5FAF7F6C0E4C113BCDFC3262CD20C /* Pod */ = {
+		2FE90B2D3568E5EB50BB4734E74977DC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D6E30AC6B07F2E8A7F5BD0EE841F4C2A /* GHLSelectorService.podspec */,
-				BFAE717F6D6498AAC3F11C58758F0B81 /* LICENSE */,
-				3F605020AE5A63953ADA95956D9FAF4D /* README.md */,
+				99EEE9E57CC22B3A045DDD3A20699780 /* GHLMediator.xcconfig */,
+				013DDEAF74C3D4BB2F999B1144533D4D /* GHLMediator-dummy.m */,
+				39E4795FBF6147E4A0615DCE89858B3F /* GHLMediator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../GHLDecouplingDemo/Pods/Target Support Files/GHLMediator";
+			sourceTree = "<group>";
+		};
+		3CB1B819569F4A4D73C18B51CAF93985 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EE8BB18974A0551C2AA9E52695433EE0 /* GHLHome.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		3F9D4C0E56CB54900480405599B6BADF /* GHLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				6AE50DABEDCA0E449B9C2EAE9161AEB6 /* GHLRouter.h */,
+				186183D3B4B5C42BB1227F8701402CA3 /* GHLRouter.m */,
+				DEA8F471BA0C79B1927BEF4FA52AEA67 /* Pod */,
+				B38A5F3F76425F922BF70018913251EA /* Resources */,
+				AC3013177CFCDDE7D521F682FBEAD113 /* Support Files */,
+			);
+			name = GHLRouter;
+			path = ../../GHLRouter;
 			sourceTree = "<group>";
 		};
 		459BC5B7CB921E375E8CB508CD5081AF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5F3A1AE06BA299381702DB03629C9A6A /* GHLHome */,
-				5653B386B4607DDEE46E5F6217A8EB4A /* GHLMediator */,
-				19F3B85E26DF71D67914A07C1395C7BC /* GHLRouter */,
-				9EF655A578DF1914CE039C0AADF3EEFD /* GHLSelectorService */,
+				848D35217C4A5778E8765D0A5758013B /* GHLHome */,
+				DFB6A972B112D2A70DFB1B5C8B024AEB /* GHLMediator */,
+				3F9D4C0E56CB54900480405599B6BADF /* GHLRouter */,
+				857B4617AC9887A075D1A6B79C47788A /* GHLSelectorService */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5653B386B4607DDEE46E5F6217A8EB4A /* GHLMediator */ = {
+		530405F3AA041A8B07309C9D50A4EFF4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0F66A618F2229E773E25603C82FDA112 /* GHLMediator.h */,
-				21B6D772CBB16F50BD42B0529E30FEF0 /* GHLMediator.m */,
-				FA286D638D99BF0BD43D7D54F5B539BB /* GHLMediator+Home.h */,
-				6E4DE56F329D0E87622A763111D718C3 /* GHLMediator+Home.m */,
-				FA66D4FA2B94DC860E2172C15E209673 /* Pod */,
-				ACA3F72D966DB8E8B58643E548DEE47A /* Support Files */,
+				81D609E4521C746BB675921B5E4EF428 /* GHLSelectorService.podspec */,
 			);
-			name = GHLMediator;
-			path = ../../GHLMediator;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		5F3A1AE06BA299381702DB03629C9A6A /* GHLHome */ = {
+		848D35217C4A5778E8765D0A5758013B /* GHLHome */ = {
 			isa = PBXGroup;
 			children = (
-				2539E147456ED90BB2078E92F52240EE /* GHLHomeViewController.h */,
-				A9E6D89B74FCA27D54686A6221FEBF6E /* GHLHomeViewController.m */,
-				CEEE99F403E412CD513DB1D3423B96E6 /* selector_home.h */,
-				5F971F719735BCBC5CEAEC1E5BFBBF83 /* selector_home.m */,
-				C570E6F5372C836173B8F130F1814792 /* target_home.h */,
-				C568A9C72D6B519D7A0221E5A8FDD355 /* target_home.m */,
-				6A6763766E42A179DDA3F64CF18C042B /* Pod */,
-				D2F98A10954305BA87AC36A06BDAF5A2 /* Resources */,
-				9EEAB72B4668FDD17C4EDC3D24280B61 /* Support Files */,
+				47E84F4140788DDE09B725D2695B0423 /* GHLHomeViewController.h */,
+				7119AB78EF9407A778D701D02C76D840 /* GHLHomeViewController.m */,
+				ED4C34B47BA626000A85416DA4ED3194 /* selector_home.h */,
+				647B244609C206ADF4DF1B3F85048FD4 /* selector_home.m */,
+				7E15ED3908C0A3FC18FE987438DBC407 /* target_home.h */,
+				F3A2CEA5933F3D8726531BA8A6EBF631 /* target_home.m */,
+				3CB1B819569F4A4D73C18B51CAF93985 /* Pod */,
+				19AD6B191496FAF3E5A788DFDB1379F5 /* Resources */,
+				AD67D3B5DD2A6E3CE850BE20A265C790 /* Support Files */,
 			);
 			name = GHLHome;
 			path = ../../GHLHome;
 			sourceTree = "<group>";
 		};
-		66564AA832216584CEA04DC64909D057 /* Support Files */ = {
+		857B4617AC9887A075D1A6B79C47788A /* GHLSelectorService */ = {
 			isa = PBXGroup;
 			children = (
-				CE18C884EB433A69B65585772E5C9CF3 /* GHLRouter.xcconfig */,
-				B523EFE599DD52F4458DFE300753DEA0 /* GHLRouter-dummy.m */,
-				BBEE6C43D77BFD859477A7319AE5FC5E /* GHLRouter-prefix.pch */,
-				80202547C182A34A4EF5BD5A1740D44B /* ResourceBundle-GHLRouter-GHLRouter-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../GHLDecouplingDemo/Pods/Target Support Files/GHLRouter";
-			sourceTree = "<group>";
-		};
-		6A6763766E42A179DDA3F64CF18C042B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F936736461CB315C7FDEFFD6F42AEBC5 /* GHLHome.podspec */,
-				5A34B82C3D00F8F539220604ACE4B35B /* LICENSE */,
-				BC5A0A57775F8755223159BB78CC3C24 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		9EEAB72B4668FDD17C4EDC3D24280B61 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A1CAE2ECB20E4EBE854481B760797A8C /* GHLHome.xcconfig */,
-				F78CD2AA7E1B066571F644BE863523D6 /* GHLHome-dummy.m */,
-				D70BCBED164ED227D943D31CC293CEC7 /* GHLHome-prefix.pch */,
-				08FEE51B1A9D4D12546EA42FDA7A1C74 /* ResourceBundle-GHLHome-GHLHome-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../GHLDecouplingDemo/Pods/Target Support Files/GHLHome";
-			sourceTree = "<group>";
-		};
-		9EF655A578DF1914CE039C0AADF3EEFD /* GHLSelectorService */ = {
-			isa = PBXGroup;
-			children = (
-				31932D1D73FB372499B6008B73B04786 /* GHLSelectorService.h */,
-				E4ACF6E38665FE2B75565E8CFC81AD78 /* GHLSelectorService.m */,
-				3DB5FAF7F6C0E4C113BCDFC3262CD20C /* Pod */,
-				AB8518964783FD060F8C13356ED67D77 /* Support Files */,
+				E20C574C6E9F852C0FBAD54B0EFD6E83 /* GHLSelectorService.h */,
+				77A89A3A2A162F395AEFAD4387B88BE7 /* GHLSelectorService.m */,
+				530405F3AA041A8B07309C9D50A4EFF4 /* Pod */,
+				A409DB1B56E206A712B7F1D6AE8BE0DE /* Support Files */,
 			);
 			name = GHLSelectorService;
 			path = ../../GHLSelectorService;
 			sourceTree = "<group>";
 		};
-		AB8518964783FD060F8C13356ED67D77 /* Support Files */ = {
+		A409DB1B56E206A712B7F1D6AE8BE0DE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BAA2C4BD372137709FB3D0CB8CC40492 /* GHLSelectorService.xcconfig */,
-				ABBEBF25BE5F04204A6FD0C3122A528E /* GHLSelectorService-dummy.m */,
-				9972D8EA5A2D2DD7DEF526C2BA5A6178 /* GHLSelectorService-prefix.pch */,
+				0E8F08224115EF62ACF193740EC91626 /* GHLSelectorService.xcconfig */,
+				77C228DB99BA860B7C4C25DD262A6D6A /* GHLSelectorService-dummy.m */,
+				B99A8611F74C058990375BCF6ACC132C /* GHLSelectorService-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../GHLDecouplingDemo/Pods/Target Support Files/GHLSelectorService";
 			sourceTree = "<group>";
 		};
-		ACA3F72D966DB8E8B58643E548DEE47A /* Support Files */ = {
+		AC3013177CFCDDE7D521F682FBEAD113 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				423534638611D8AD7D1D595772AF24BE /* GHLMediator.xcconfig */,
-				3526316A7FC845819AD9FB02F507969C /* GHLMediator-dummy.m */,
-				3077737EDDED3E158540687F7B0248E2 /* GHLMediator-prefix.pch */,
+				8B95EE1F1DDB9E6A63EF13509F7B657B /* GHLRouter.xcconfig */,
+				2078D96DBF3C4341F30FA9C1D0F2DBE7 /* GHLRouter-dummy.m */,
+				88770BFD014F7E076666A1E33BB8D7E2 /* GHLRouter-prefix.pch */,
+				27D92DDCC35741E660B4A40999D8DE1F /* ResourceBundle-GHLRouter-GHLRouter-Info.plist */,
 			);
 			name = "Support Files";
-			path = "../GHLDecouplingDemo/Pods/Target Support Files/GHLMediator";
+			path = "../GHLDecouplingDemo/Pods/Target Support Files/GHLRouter";
+			sourceTree = "<group>";
+		};
+		AD67D3B5DD2A6E3CE850BE20A265C790 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB41DF137BD97D28746A40DD724F0512 /* GHLHome.xcconfig */,
+				6CCEE1782D1A6BEE6E8A1FF9DD70516F /* GHLHome-dummy.m */,
+				BB1682FAFD5022C7AE8489C78F972DFB /* GHLHome-prefix.pch */,
+				498E614236320770A9CF76107FFF18E7 /* ResourceBundle-GHLHome-GHLHome-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../GHLDecouplingDemo/Pods/Target Support Files/GHLHome";
+			sourceTree = "<group>";
+		};
+		B38A5F3F76425F922BF70018913251EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2F27ABE215B83AE17D0B10C1949AFD8 /* target.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		BE5F18B73A82083F1036DF8473C1175C /* Products */ = {
@@ -367,14 +365,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		D2F98A10954305BA87AC36A06BDAF5A2 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				DBB90412A1FBFD49F7A281E21A366E94 /* target.yaml */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -382,32 +372,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E8E87C4F57C96B4E83FA48A0FD556FDB /* Resources */ = {
+		DEA8F471BA0C79B1927BEF4FA52AEA67 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				ADBA03895B0911A6DB5FED3409BB9777 /* target.plist */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		F95D2CE89BB927493B47DA6D4F3E4AEC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				894D181229696285C6ACB9C11F964B9F /* GHLRouter.podspec */,
-				B68EB61D702B52B9E32C8874B114403F /* LICENSE */,
-				D34D662136E7BE41534B89D28369C116 /* README.md */,
+				786584EAD3B06A9368E7122DBA1F857E /* GHLRouter.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		FA66D4FA2B94DC860E2172C15E209673 /* Pod */ = {
+		DFB6A972B112D2A70DFB1B5C8B024AEB /* GHLMediator */ = {
 			isa = PBXGroup;
 			children = (
-				A3AF88ECD2DDD355543BBE38889CF931 /* GHLMediator.podspec */,
-				2896DC823CA8741E7133D16E4CC2E752 /* LICENSE */,
-				CAB4EF5053121B7877E0FF25212D4036 /* README.md */,
+				44CF956822F96A5FE9BE719A5A854837 /* GHLMediator.h */,
+				70D5C1EB8ED3423FB0A93B398CA99E77 /* GHLMediator.m */,
+				942678476D2660D5F81403F1F3CE5236 /* GHLMediator+Home.h */,
+				146B39DFAFE77275A23682F389AD31DD /* GHLMediator+Home.m */,
+				024896443F3B349C41E13FFC3F067D38 /* Pod */,
+				2FE90B2D3568E5EB50BB4734E74977DC /* Support Files */,
 			);
-			name = Pod;
+			name = GHLMediator;
+			path = ../../GHLMediator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -593,7 +577,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -740,7 +724,7 @@
 /* Begin XCBuildConfiguration section */
 		037569E0F29E7DCD51F12FF8C8F33BB6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE18C884EB433A69B65585772E5C9CF3 /* GHLRouter.xcconfig */;
+			baseConfigurationReference = 8B95EE1F1DDB9E6A63EF13509F7B657B /* GHLRouter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GHLRouter";
@@ -756,7 +740,7 @@
 		};
 		0CAF8686F51F2805B3DC63E3CDE23EE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE18C884EB433A69B65585772E5C9CF3 /* GHLRouter.xcconfig */;
+			baseConfigurationReference = 8B95EE1F1DDB9E6A63EF13509F7B657B /* GHLRouter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GHLRouter";
@@ -772,7 +756,7 @@
 		};
 		0EF3B2B562FB28918DED5AEDE03B2779 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1CAE2ECB20E4EBE854481B760797A8C /* GHLHome.xcconfig */;
+			baseConfigurationReference = BB41DF137BD97D28746A40DD724F0512 /* GHLHome.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GHLHome";
@@ -788,7 +772,7 @@
 		};
 		1CDF875706ED2D2A621F49D2B42536B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE18C884EB433A69B65585772E5C9CF3 /* GHLRouter.xcconfig */;
+			baseConfigurationReference = 8B95EE1F1DDB9E6A63EF13509F7B657B /* GHLRouter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -898,7 +882,7 @@
 		};
 		3A1EEED7E1FE2425843505F4D62F6E61 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAA2C4BD372137709FB3D0CB8CC40492 /* GHLSelectorService.xcconfig */;
+			baseConfigurationReference = 0E8F08224115EF62ACF193740EC91626 /* GHLSelectorService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -981,7 +965,7 @@
 		};
 		5322D29653F19EE5D5065E3D8114A55C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAA2C4BD372137709FB3D0CB8CC40492 /* GHLSelectorService.xcconfig */;
+			baseConfigurationReference = 0E8F08224115EF62ACF193740EC91626 /* GHLSelectorService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1005,7 +989,7 @@
 		};
 		86BCBABA534A7AA4E811D3130C47F7F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1CAE2ECB20E4EBE854481B760797A8C /* GHLHome.xcconfig */;
+			baseConfigurationReference = BB41DF137BD97D28746A40DD724F0512 /* GHLHome.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GHLHome";
@@ -1021,7 +1005,7 @@
 		};
 		97A04BC722D0A937AE35B0B41F9DF55A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 423534638611D8AD7D1D595772AF24BE /* GHLMediator.xcconfig */;
+			baseConfigurationReference = 99EEE9E57CC22B3A045DDD3A20699780 /* GHLMediator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1045,7 +1029,7 @@
 		};
 		A9A5BFCA66D6C615A5A2CD445A34D63C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1CAE2ECB20E4EBE854481B760797A8C /* GHLHome.xcconfig */;
+			baseConfigurationReference = BB41DF137BD97D28746A40DD724F0512 /* GHLHome.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1068,7 +1052,7 @@
 		};
 		BF271D5006F785CCBBDA1A9F23F7D3CA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1CAE2ECB20E4EBE854481B760797A8C /* GHLHome.xcconfig */;
+			baseConfigurationReference = BB41DF137BD97D28746A40DD724F0512 /* GHLHome.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1092,7 +1076,7 @@
 		};
 		C2AE7CE52262519FDD675D7AB03948B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE18C884EB433A69B65585772E5C9CF3 /* GHLRouter.xcconfig */;
+			baseConfigurationReference = 8B95EE1F1DDB9E6A63EF13509F7B657B /* GHLRouter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1138,7 +1122,7 @@
 		};
 		DF0E3766E126AFF4BA28CDFEACAE5444 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 423534638611D8AD7D1D595772AF24BE /* GHLMediator.xcconfig */;
+			baseConfigurationReference = 99EEE9E57CC22B3A045DDD3A20699780 /* GHLMediator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

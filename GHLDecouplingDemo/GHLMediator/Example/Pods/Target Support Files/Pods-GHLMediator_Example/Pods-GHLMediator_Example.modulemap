@@ -1,6 +1,0 @@
-framework module Pods_GHLMediator_Example {
-  umbrella header "Pods-GHLMediator_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

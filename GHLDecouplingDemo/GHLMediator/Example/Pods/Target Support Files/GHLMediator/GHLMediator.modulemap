@@ -1,6 +1,0 @@
-framework module GHLMediator {
-  umbrella header "GHLMediator-umbrella.h"
-
-  export *
-  module * { export * }
-}
