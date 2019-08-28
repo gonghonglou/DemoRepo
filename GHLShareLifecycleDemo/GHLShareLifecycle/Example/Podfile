@@ -1,0 +1,18 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'GHLShareLifecycle_Example' do
+  pod 'GHLShareLifecycle', :path => '../'
+  
+  pod 'A4ShareLifecycle', :path => '../../A4ShareLifecycle'
+  pod 'a4ifecycle', :path => '../../a4ifecycle'
+  pod 'ALifscycle', :path => '../../ALifscycle'
+  pod 'BLifscycle', :path => '../../BLifscycle'
+
+  target 'GHLShareLifecycle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

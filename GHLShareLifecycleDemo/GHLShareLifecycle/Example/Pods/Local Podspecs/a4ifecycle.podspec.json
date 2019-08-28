@@ -1,0 +1,27 @@
+{
+  "name": "a4ifecycle",
+  "version": "0.1.0",
+  "summary": "A short description of a4ifecycle.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gonghonglou/a4ifecycle",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gonghonglou": "gonghonglou@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/gonghonglou/a4ifecycle.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "a4ifecycle/Classes/**/*",
+  "dependencies": {
+    "GHLShareLifecycle": [
+
+    ]
+  }
+}

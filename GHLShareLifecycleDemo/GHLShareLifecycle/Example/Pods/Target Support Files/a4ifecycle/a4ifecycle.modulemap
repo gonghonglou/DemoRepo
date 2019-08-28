@@ -1,0 +1,6 @@
+framework module a4ifecycle {
+  umbrella header "a4ifecycle-umbrella.h"
+
+  export *
+  module * { export * }
+}

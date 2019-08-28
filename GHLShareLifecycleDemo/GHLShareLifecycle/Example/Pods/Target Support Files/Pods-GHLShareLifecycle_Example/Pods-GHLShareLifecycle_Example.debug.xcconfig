@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/A4ShareLifecycle" "${PODS_CONFIGURATION_BUILD_DIR}/ALifscycle" "${PODS_CONFIGURATION_BUILD_DIR}/BLifscycle" "${PODS_CONFIGURATION_BUILD_DIR}/GHLShareLifecycle" "${PODS_CONFIGURATION_BUILD_DIR}/a4ifecycle"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/A4ShareLifecycle/A4ShareLifecycle.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ALifscycle/ALifscycle.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/BLifscycle/BLifscycle.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/GHLShareLifecycle/GHLShareLifecycle.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/a4ifecycle/a4ifecycle.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "A4ShareLifecycle" -framework "ALifscycle" -framework "BLifscycle" -framework "GHLShareLifecycle" -framework "a4ifecycle"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

@@ -1,0 +1,40 @@
+PODS:
+  - a4ifecycle (0.1.0):
+    - GHLShareLifecycle
+  - A4ShareLifecycle (0.1.0):
+    - GHLShareLifecycle
+  - ALifscycle (0.1.0):
+    - GHLShareLifecycle
+  - BLifscycle (0.1.0):
+    - GHLShareLifecycle
+  - GHLShareLifecycle (0.1.0)
+
+DEPENDENCIES:
+  - a4ifecycle (from `../../a4ifecycle`)
+  - A4ShareLifecycle (from `../../A4ShareLifecycle`)
+  - ALifscycle (from `../../ALifscycle`)
+  - BLifscycle (from `../../BLifscycle`)
+  - GHLShareLifecycle (from `../`)
+
+EXTERNAL SOURCES:
+  a4ifecycle:
+    :path: "../../a4ifecycle"
+  A4ShareLifecycle:
+    :path: "../../A4ShareLifecycle"
+  ALifscycle:
+    :path: "../../ALifscycle"
+  BLifscycle:
+    :path: "../../BLifscycle"
+  GHLShareLifecycle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  a4ifecycle: bd3a5e8b9ac172217820c9c7a372604c2a72bd18
+  A4ShareLifecycle: 6ceb317a528a66cbae934e748447518f714481fb
+  ALifscycle: f9ef4ecd8e8c0a6547e40da2163b58a599aa1120
+  BLifscycle: 2e6a1ad7b1537f6d3377d70e407414bf8729baf8
+  GHLShareLifecycle: e83e8b3c8c0b801a2afa62ad240f518f24793368
+
+PODFILE CHECKSUM: 58d43e7cf8d0fb89983ebb3f56b2321dbd9a9085
+
+COCOAPODS: 1.7.5

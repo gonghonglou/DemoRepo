@@ -1,0 +1,6 @@
+framework module A4ShareLifecycle {
+  umbrella header "A4ShareLifecycle-umbrella.h"
+
+  export *
+  module * { export * }
+}

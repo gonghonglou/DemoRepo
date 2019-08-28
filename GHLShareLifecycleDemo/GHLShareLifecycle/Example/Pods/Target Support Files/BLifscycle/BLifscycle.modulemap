@@ -1,0 +1,6 @@
+framework module BLifscycle {
+  umbrella header "BLifscycle-umbrella.h"
+
+  export *
+  module * { export * }
+}

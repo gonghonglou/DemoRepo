@@ -1,0 +1,1599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035BA579F47F80F43D9577B010E31F7D /* GHLShareLifecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812CE7717D263B5BBED8A60E03A72552 /* GHLShareLifecycle.framework */; };
+		06A3C6DDA20EBC0F3CD05F857F064B3D /* GHLShareLifecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812CE7717D263B5BBED8A60E03A72552 /* GHLShareLifecycle.framework */; };
+		10E447A249CB8D0388C557F0199EAEF1 /* BLifscycle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D048AA48F1DB5F1B06B2A28C7C5505 /* BLifscycle-dummy.m */; };
+		1498D364CD8219919C9AF5299CAA7660 /* a4ifecycle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C60C4A6DF27A31413D8D6BF93653E29 /* a4ifecycle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E1B96BD695F3A2A90135B828AB35D78 /* ALifscycle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 679BEA40EB613E833FB071C5C9BE9ADB /* ALifscycle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		217A4B929AFAAA87FC816EC6316AF07C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91D11966FE31EAB91603DF5FB6E0B50 /* Foundation.framework */; };
+		23E1172242780C372DBF9F23F090C734 /* GHLShareLifecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812CE7717D263B5BBED8A60E03A72552 /* GHLShareLifecycle.framework */; };
+		26DD64B2BB67A5DD05B352B84B49B1BF /* A4ShareLifecycle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A67FF7552E0C7A1D7CA15220DB61E01 /* A4ShareLifecycle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27781AE141CBC5302AD637E015E424BD /* GHLShareLifecycle+ALifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = F80BB675F8D1901AE8366CAD93F0174D /* GHLShareLifecycle+ALifecycle.m */; };
+		290FB782C8EF515F30AD3A61CC7C9AD7 /* GHLShareLifecycle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D78E3017F78EFA7311F4E18A074E1FFB /* GHLShareLifecycle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1DF0273F9B996AFC9C9E817292DD79 /* GHLShareLifecycle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4490A291E234590683289D78370D92 /* GHLShareLifecycle-dummy.m */; };
+		2F0D7E0AD8F803B922E0C1328ADF970A /* GHLShareLifecycle+A4Share.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D212F70447A1B8B3F0945014075D2E3 /* GHLShareLifecycle+A4Share.m */; };
+		323A3557EEA6085E1809634CE30F937F /* Pods-GHLShareLifecycle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A8F53BE555AF120BEF57FE59763CB3 /* Pods-GHLShareLifecycle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34A3A9B542C9CB12C96A6B0EF3CE6CAD /* Pods-GHLShareLifecycle_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DB1C8BE05052E0E0B0BF4435B309511 /* Pods-GHLShareLifecycle_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B7F93DAA4C698E16498638FB2F7DB54 /* GHLShareLifecycle+a4ifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6422D6A25D739104FA7F126BFD30F041 /* GHLShareLifecycle+a4ifecycle.m */; };
+		409A977A0204B6AE9ECE3EB78A25A4EC /* Pods-GHLShareLifecycle_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0E93E1462546640D0CCF50B8BFFCF7 /* Pods-GHLShareLifecycle_Tests-dummy.m */; };
+		4B9FB93873C1B1076660ABB2EFA099AC /* ALifscycle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CD13C40657ED450182DD78E089A19A /* ALifscycle-dummy.m */; };
+		620FBE3BF24BB416C69B1F265D8DB18D /* a4ifecycle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F06A67FB8D3F19BCBB0D36E58A70FE3A /* a4ifecycle-dummy.m */; };
+		7FC1F03C517248C1A18B1E02EB23CFFF /* GHLShareLifecycle+A4Share.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B5F3E88FD0BC6CED07975342A41D7B /* GHLShareLifecycle+A4Share.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85F2DD88DDC0D3B5DD4C91D5C1206F1B /* GHLShareLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDB927A47584824E4131B4C1DADBF40 /* GHLShareLifecycle.m */; };
+		94A77F0A7438F54424A708C4EDD05567 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91D11966FE31EAB91603DF5FB6E0B50 /* Foundation.framework */; };
+		9EAD906A1FB614418FD6DF1DA3D8FC37 /* GHLShareLifecycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C32953EE793E9A02C2A060D7DF28AA /* GHLShareLifecycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A10985C4C8119146834F07D9C2E50B07 /* GHLShareLifecycle+BLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 839B1CDDF16EE6672B56865E785FD29B /* GHLShareLifecycle+BLifecycle.m */; };
+		B74756C6CC750EECCA09A4FC4C2B2D5E /* GHLShareLifecycle+ALifecycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F262E542191067F6771AF12BC36AA71 /* GHLShareLifecycle+ALifecycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE41B3C3B93AD743655A00FBAC4E8919 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91D11966FE31EAB91603DF5FB6E0B50 /* Foundation.framework */; };
+		BE4E83B1A946C485C862E8A34A6825F2 /* GHLShareLifecycle+BLifecycle.h in Headers */ = {isa = PBXBuildFile; fileRef = B91D04ADC262D238E5C2AAA3725F24ED /* GHLShareLifecycle+BLifecycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C713E9122C55F3102A2E7536EF4519D0 /* GHLShareLifecycle+a4ifecycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F6EDADFF59BCCCD74E8EF0B098352A7 /* GHLShareLifecycle+a4ifecycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA38B5237B44DF3DDC5450655C3D693E /* A4ShareLifecycle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9062C6501108BE51A85F4EAC73D78E /* A4ShareLifecycle-dummy.m */; };
+		D718D3779D5A00C0F8292FA4E142C9E9 /* Pods-GHLShareLifecycle_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDE1C9D4FC0CEFE3BDEA527ECFE0762 /* Pods-GHLShareLifecycle_Example-dummy.m */; };
+		DBFA8801E7804044740318D23622F194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91D11966FE31EAB91603DF5FB6E0B50 /* Foundation.framework */; };
+		E4C7205AD296D65EF3FF403818D864BA /* GHLShareLifecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812CE7717D263B5BBED8A60E03A72552 /* GHLShareLifecycle.framework */; };
+		E991B791E3214DD34771AF611D300C13 /* BLifscycle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE9F11BEDEE4D27AC27EFD4175795ECB /* BLifscycle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F28729D4CAB345B087EECA8751B1D8AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91D11966FE31EAB91603DF5FB6E0B50 /* Foundation.framework */; };
+		F4B9AF43AC6B697E8566DBAC36889BA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91D11966FE31EAB91603DF5FB6E0B50 /* Foundation.framework */; };
+		F71B058DF75BC45F5FF81DE583DD7FDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91D11966FE31EAB91603DF5FB6E0B50 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		007E9A81DD006FBCF78A772FF639D8C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FAD79CB390AB4A65CF9D87D9D4E53C7;
+			remoteInfo = BLifscycle;
+		};
+		23D7596368237B51608889C4969A18B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF12A80D2A50B00FE09E9087C4DCA772;
+			remoteInfo = GHLShareLifecycle;
+		};
+		649CC076CFB89EEA66CC5830E63BF1E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF12A80D2A50B00FE09E9087C4DCA772;
+			remoteInfo = GHLShareLifecycle;
+		};
+		669218151FC0A8AAC4B7C5046AAB7133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF12A80D2A50B00FE09E9087C4DCA772;
+			remoteInfo = GHLShareLifecycle;
+		};
+		88791B25305949760BEA836896158FF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CE151B62080E6076E65C0F21D6597A7;
+			remoteInfo = A4ShareLifecycle;
+		};
+		8BC2E53446C33846D2B61955E8E2C979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF12A80D2A50B00FE09E9087C4DCA772;
+			remoteInfo = GHLShareLifecycle;
+		};
+		C957036119830D29A3D7A147AFA0381C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A78401D3A5C637907CEC6DAEC0EE1D;
+			remoteInfo = a4ifecycle;
+		};
+		D2DC9440FB17B8F03EB7C81CB0F54699 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF12A80D2A50B00FE09E9087C4DCA772;
+			remoteInfo = GHLShareLifecycle;
+		};
+		E7E9D7141E3A0671553B3DF122A0225D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27192310C384A5034DD280B19A387F97;
+			remoteInfo = "Pods-GHLShareLifecycle_Example";
+		};
+		F0C4DCC7F071DB8E6556CC5970FEB245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 692CB72B9C2E7D6EFE2579570860E74F;
+			remoteInfo = ALifscycle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02831355748E04DC1311586A30426F1B /* a4ifecycle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = a4ifecycle.xcconfig; sourceTree = "<group>"; };
+		05FC3AF4F33621897A86A27F336747AE /* GHLShareLifecycle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GHLShareLifecycle-Info.plist"; sourceTree = "<group>"; };
+		0B4CD87AF3BC561EBDE07F7AAE050043 /* A4ShareLifecycle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = A4ShareLifecycle.xcconfig; sourceTree = "<group>"; };
+		0C30A12DAF18A42DEE15BBF2DCCD12FF /* Pods-GHLShareLifecycle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHLShareLifecycle_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0D8FB6D241F742CD71789D06FB2E2833 /* A4ShareLifecycle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = A4ShareLifecycle.modulemap; sourceTree = "<group>"; };
+		0DDE1C9D4FC0CEFE3BDEA527ECFE0762 /* Pods-GHLShareLifecycle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GHLShareLifecycle_Example-dummy.m"; sourceTree = "<group>"; };
+		13273D82C94B63436B3A79BD76E17CB0 /* Pods-GHLShareLifecycle_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHLShareLifecycle_Example-Info.plist"; sourceTree = "<group>"; };
+		185D755E6B750658BAB4139B900C777A /* A4ShareLifecycle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "A4ShareLifecycle-prefix.pch"; sourceTree = "<group>"; };
+		19A8F53BE555AF120BEF57FE59763CB3 /* Pods-GHLShareLifecycle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GHLShareLifecycle_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1BA2782F93D7707CA8B935CF73C961F4 /* Pods-GHLShareLifecycle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GHLShareLifecycle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20EB229561B52929FDADFD00D8B1D62B /* BLifscycle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLifscycle.xcconfig; sourceTree = "<group>"; };
+		25CD13C40657ED450182DD78E089A19A /* ALifscycle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALifscycle-dummy.m"; sourceTree = "<group>"; };
+		2C08B984E58506B5EFA2A0C0AD3503AB /* a4ifecycle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = a4ifecycle.modulemap; sourceTree = "<group>"; };
+		2D2A314610FE6B98DFEB0458E2919CD7 /* ALifscycle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ALifscycle.modulemap; sourceTree = "<group>"; };
+		2E2A7121C425E20AFB65E38E70F01833 /* A4ShareLifecycle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "A4ShareLifecycle-Info.plist"; sourceTree = "<group>"; };
+		3519C4A0B111F280F0939AF8222D10D6 /* GHLShareLifecycle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GHLShareLifecycle.modulemap; sourceTree = "<group>"; };
+		38DD1E352CF08E3958A46F41D448C913 /* Pods-GHLShareLifecycle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GHLShareLifecycle_Example-frameworks.sh"; sourceTree = "<group>"; };
+		43052FDD1D7F2AD8C3C2C8925EE5EAAA /* BLifscycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLifscycle.framework; path = BLifscycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4349C4837678B1920E461003231C1243 /* Pods-GHLShareLifecycle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GHLShareLifecycle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A67FF7552E0C7A1D7CA15220DB61E01 /* A4ShareLifecycle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "A4ShareLifecycle-umbrella.h"; sourceTree = "<group>"; };
+		4D707D09551AF23AE794B0BD79D9EED1 /* Pods-GHLShareLifecycle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GHLShareLifecycle_Example.modulemap"; sourceTree = "<group>"; };
+		535E3E297EC184E127C4209B6EE3B629 /* Pods-GHLShareLifecycle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHLShareLifecycle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A0A03EB712F64515E60AC70B62A028E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		60C32953EE793E9A02C2A060D7DF28AA /* GHLShareLifecycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLShareLifecycle.h; path = GHLShareLifecycle/Classes/GHLShareLifecycle.h; sourceTree = "<group>"; };
+		6422D6A25D739104FA7F126BFD30F041 /* GHLShareLifecycle+a4ifecycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GHLShareLifecycle+a4ifecycle.m"; path = "a4ifecycle/Classes/GHLShareLifecycle+a4ifecycle.m"; sourceTree = "<group>"; };
+		64978EED0CC97C45E201F41526475214 /* ALifscycle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALifscycle.xcconfig; sourceTree = "<group>"; };
+		6553CED1F74C9BB4B5938FDA47998535 /* BLifscycle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BLifscycle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		65A53732521DC03B37DACA88E62E8292 /* A4ShareLifecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = A4ShareLifecycle.framework; path = A4ShareLifecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		679440C0A790628B9C0A199CAE52B48E /* GHLShareLifecycle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHLShareLifecycle.xcconfig; sourceTree = "<group>"; };
+		679BEA40EB613E833FB071C5C9BE9ADB /* ALifscycle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALifscycle-umbrella.h"; sourceTree = "<group>"; };
+		6A89B96DD72860EC252BC41C265B5EEB /* BLifscycle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLifscycle-prefix.pch"; sourceTree = "<group>"; };
+		6A9062C6501108BE51A85F4EAC73D78E /* A4ShareLifecycle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "A4ShareLifecycle-dummy.m"; sourceTree = "<group>"; };
+		6C60C4A6DF27A31413D8D6BF93653E29 /* a4ifecycle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "a4ifecycle-umbrella.h"; sourceTree = "<group>"; };
+		6D212F70447A1B8B3F0945014075D2E3 /* GHLShareLifecycle+A4Share.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GHLShareLifecycle+A4Share.m"; path = "A4ShareLifecycle/Classes/GHLShareLifecycle+A4Share.m"; sourceTree = "<group>"; };
+		78ACE3428B14CF8514746D8B55B9E023 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		79EE2CC84085CB4A7EEE5A6599F8B3F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7A3091F5E3779E030DE111B703A3E8D9 /* a4ifecycle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "a4ifecycle-Info.plist"; sourceTree = "<group>"; };
+		7AE1E7CA1136A29B7AB7F2F213411EB5 /* BLifscycle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BLifscycle-Info.plist"; sourceTree = "<group>"; };
+		809942952D6BE24866CF784BF0BB3F07 /* GHLShareLifecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GHLShareLifecycle.framework; path = GHLShareLifecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		812CE7717D263B5BBED8A60E03A72552 /* GHLShareLifecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GHLShareLifecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		839B1CDDF16EE6672B56865E785FD29B /* GHLShareLifecycle+BLifecycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GHLShareLifecycle+BLifecycle.m"; path = "BLifscycle/Classes/GHLShareLifecycle+BLifecycle.m"; sourceTree = "<group>"; };
+		88A3A313E6981836B2549D83F800AE40 /* ALifscycle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ALifscycle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		897BD20662E1A50CF3B1A1633306A9AD /* BLifscycle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BLifscycle.modulemap; sourceTree = "<group>"; };
+		8BC08991DA82468EF48DB77190FA6CA5 /* a4ifecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = a4ifecycle.framework; path = a4ifecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB1C8BE05052E0E0B0BF4435B309511 /* Pods-GHLShareLifecycle_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GHLShareLifecycle_Example-umbrella.h"; sourceTree = "<group>"; };
+		8F6EDADFF59BCCCD74E8EF0B098352A7 /* GHLShareLifecycle+a4ifecycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GHLShareLifecycle+a4ifecycle.h"; path = "a4ifecycle/Classes/GHLShareLifecycle+a4ifecycle.h"; sourceTree = "<group>"; };
+		9125052B6628AD7B0B5EB84D07DCC2F6 /* Pods_GHLShareLifecycle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GHLShareLifecycle_Example.framework; path = "Pods-GHLShareLifecycle_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D9722EBF448D3B744DA7807F2801C2 /* Pods-GHLShareLifecycle_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHLShareLifecycle_Tests-Info.plist"; sourceTree = "<group>"; };
+		96D048AA48F1DB5F1B06B2A28C7C5505 /* BLifscycle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLifscycle-dummy.m"; sourceTree = "<group>"; };
+		9B8CEC251F3F75C8261A14444E5DDC10 /* ALifscycle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ALifscycle-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F262E542191067F6771AF12BC36AA71 /* GHLShareLifecycle+ALifecycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GHLShareLifecycle+ALifecycle.h"; path = "ALifscycle/Classes/GHLShareLifecycle+ALifecycle.h"; sourceTree = "<group>"; };
+		A7B5F3E88FD0BC6CED07975342A41D7B /* GHLShareLifecycle+A4Share.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GHLShareLifecycle+A4Share.h"; path = "A4ShareLifecycle/Classes/GHLShareLifecycle+A4Share.h"; sourceTree = "<group>"; };
+		AAA4E80E2FC8E80FF012684929D328F6 /* Pods-GHLShareLifecycle_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHLShareLifecycle_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B85542B50069DF8C053C7018EB4F059B /* Pods-GHLShareLifecycle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHLShareLifecycle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B91D04ADC262D238E5C2AAA3725F24ED /* GHLShareLifecycle+BLifecycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GHLShareLifecycle+BLifecycle.h"; path = "BLifscycle/Classes/GHLShareLifecycle+BLifecycle.h"; sourceTree = "<group>"; };
+		C6E5529C19AC79609825357B89CF3340 /* A4ShareLifecycle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = A4ShareLifecycle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C7A7989377F5A4CED200FCF528BD0D35 /* a4ifecycle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = a4ifecycle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB686655584FFCDA91BA61AD3DEAC629 /* Pods-GHLShareLifecycle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GHLShareLifecycle_Tests.modulemap"; sourceTree = "<group>"; };
+		CCDB927A47584824E4131B4C1DADBF40 /* GHLShareLifecycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLShareLifecycle.m; path = GHLShareLifecycle/Classes/GHLShareLifecycle.m; sourceTree = "<group>"; };
+		D78E3017F78EFA7311F4E18A074E1FFB /* GHLShareLifecycle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHLShareLifecycle-umbrella.h"; sourceTree = "<group>"; };
+		DB4490A291E234590683289D78370D92 /* GHLShareLifecycle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHLShareLifecycle-dummy.m"; sourceTree = "<group>"; };
+		DC25246101D2D8767B61D5F09E38AB5A /* GHLShareLifecycle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHLShareLifecycle-prefix.pch"; sourceTree = "<group>"; };
+		DE7DA302E5336B76379DD0216CD949B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DE9F11BEDEE4D27AC27EFD4175795ECB /* BLifscycle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLifscycle-umbrella.h"; sourceTree = "<group>"; };
+		E00A1CC9DD9E7BE4C7D54D755F9DAB8D /* Pods_GHLShareLifecycle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GHLShareLifecycle_Tests.framework; path = "Pods-GHLShareLifecycle_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39F2FF0FFF0DBE3F53FCD8DFE29454A /* ALifscycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ALifscycle.framework; path = ALifscycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45B00A8A1F9B4DC47C53E3BFCBE8DFE /* ALifscycle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALifscycle-prefix.pch"; sourceTree = "<group>"; };
+		E4C0E9305C5C77F55DB80C6D2B2F4C99 /* Pods-GHLShareLifecycle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHLShareLifecycle_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EF0E93E1462546640D0CCF50B8BFFCF7 /* Pods-GHLShareLifecycle_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GHLShareLifecycle_Tests-dummy.m"; sourceTree = "<group>"; };
+		F06A67FB8D3F19BCBB0D36E58A70FE3A /* a4ifecycle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "a4ifecycle-dummy.m"; sourceTree = "<group>"; };
+		F369B5387DBF65A25A623ED26B018E03 /* a4ifecycle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "a4ifecycle-prefix.pch"; sourceTree = "<group>"; };
+		F433CA91C94015C9CD26BD3172EE0958 /* Pods-GHLShareLifecycle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHLShareLifecycle_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F80BB675F8D1901AE8366CAD93F0174D /* GHLShareLifecycle+ALifecycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GHLShareLifecycle+ALifecycle.m"; path = "ALifscycle/Classes/GHLShareLifecycle+ALifecycle.m"; sourceTree = "<group>"; };
+		F91D11966FE31EAB91603DF5FB6E0B50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FA4147530AEEF0C2C4B373C5B71DBD18 /* GHLShareLifecycle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHLShareLifecycle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B165314BAFF1A720F5C7158932A166A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217A4B929AFAAA87FC816EC6316AF07C /* Foundation.framework in Frameworks */,
+				06A3C6DDA20EBC0F3CD05F857F064B3D /* GHLShareLifecycle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD4D8BA838465FBB0D6624BB7B98D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A77F0A7438F54424A708C4EDD05567 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F802EA63F7F847DF082F3ECD5CBEF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28729D4CAB345B087EECA8751B1D8AE /* Foundation.framework in Frameworks */,
+				23E1172242780C372DBF9F23F090C734 /* GHLShareLifecycle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896193AD78A3559602C0058DBD49C528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B9AF43AC6B697E8566DBAC36889BA7 /* Foundation.framework in Frameworks */,
+				035BA579F47F80F43D9577B010E31F7D /* GHLShareLifecycle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0F3AC0C36E62863A5B179E5536E4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71B058DF75BC45F5FF81DE583DD7FDB /* Foundation.framework in Frameworks */,
+				E4C7205AD296D65EF3FF403818D864BA /* GHLShareLifecycle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C513190BC78FE1AB3965B8D55E8203B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFA8801E7804044740318D23622F194 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1FC1A6B84376625F1897CE30B53ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE41B3C3B93AD743655A00FBAC4E8919 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024C6D0E3D1837B67810CF8F79859729 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3519C4A0B111F280F0939AF8222D10D6 /* GHLShareLifecycle.modulemap */,
+				679440C0A790628B9C0A199CAE52B48E /* GHLShareLifecycle.xcconfig */,
+				DB4490A291E234590683289D78370D92 /* GHLShareLifecycle-dummy.m */,
+				05FC3AF4F33621897A86A27F336747AE /* GHLShareLifecycle-Info.plist */,
+				DC25246101D2D8767B61D5F09E38AB5A /* GHLShareLifecycle-prefix.pch */,
+				D78E3017F78EFA7311F4E18A074E1FFB /* GHLShareLifecycle-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GHLShareLifecycle";
+			sourceTree = "<group>";
+		};
+		07144744577F262F90FD8C52F5F94D38 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C6E5529C19AC79609825357B89CF3340 /* A4ShareLifecycle.podspec */,
+				5A0A03EB712F64515E60AC70B62A028E /* LICENSE */,
+				DE7DA302E5336B76379DD0216CD949B6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0E20FB7B6F77740E99AA8EAE6DE7A5F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BC08991DA82468EF48DB77190FA6CA5 /* a4ifecycle.framework */,
+				65A53732521DC03B37DACA88E62E8292 /* A4ShareLifecycle.framework */,
+				E39F2FF0FFF0DBE3F53FCD8DFE29454A /* ALifscycle.framework */,
+				43052FDD1D7F2AD8C3C2C8925EE5EAAA /* BLifscycle.framework */,
+				809942952D6BE24866CF784BF0BB3F07 /* GHLShareLifecycle.framework */,
+				9125052B6628AD7B0B5EB84D07DCC2F6 /* Pods_GHLShareLifecycle_Example.framework */,
+				E00A1CC9DD9E7BE4C7D54D755F9DAB8D /* Pods_GHLShareLifecycle_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11508EAB34856C18C28CB0F30D079667 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				897BD20662E1A50CF3B1A1633306A9AD /* BLifscycle.modulemap */,
+				20EB229561B52929FDADFD00D8B1D62B /* BLifscycle.xcconfig */,
+				96D048AA48F1DB5F1B06B2A28C7C5505 /* BLifscycle-dummy.m */,
+				7AE1E7CA1136A29B7AB7F2F213411EB5 /* BLifscycle-Info.plist */,
+				6A89B96DD72860EC252BC41C265B5EEB /* BLifscycle-prefix.pch */,
+				DE9F11BEDEE4D27AC27EFD4175795ECB /* BLifscycle-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../GHLShareLifecycle/Example/Pods/Target Support Files/BLifscycle";
+			sourceTree = "<group>";
+		};
+		1BF59EE7E5F6EF67E783F2C6C260FF70 /* A4ShareLifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				A7B5F3E88FD0BC6CED07975342A41D7B /* GHLShareLifecycle+A4Share.h */,
+				6D212F70447A1B8B3F0945014075D2E3 /* GHLShareLifecycle+A4Share.m */,
+				07144744577F262F90FD8C52F5F94D38 /* Pod */,
+				60ECD05AB32651379BACCF765A4F845C /* Support Files */,
+			);
+			name = A4ShareLifecycle;
+			path = ../../../A4ShareLifecycle;
+			sourceTree = "<group>";
+		};
+		215DAFB8AF71A767BE6A0636290540C9 /* BLifscycle */ = {
+			isa = PBXGroup;
+			children = (
+				B91D04ADC262D238E5C2AAA3725F24ED /* GHLShareLifecycle+BLifecycle.h */,
+				839B1CDDF16EE6672B56865E785FD29B /* GHLShareLifecycle+BLifecycle.m */,
+				D1C22883292AD24FC1F30B390335AE1C /* Pod */,
+				11508EAB34856C18C28CB0F30D079667 /* Support Files */,
+			);
+			name = BLifscycle;
+			path = ../../../BLifscycle;
+			sourceTree = "<group>";
+		};
+		231DE23E07C4699EDB18CB17EBDFFE79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				812CE7717D263B5BBED8A60E03A72552 /* GHLShareLifecycle.framework */,
+				B22352DB1E20FA7439D120E93CA588A0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		401209F5F0E797A19ED67A17EC292BDB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				88A3A313E6981836B2549D83F800AE40 /* ALifscycle.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4D91C58A703E39C3CA57C91B73D120DD /* GHLShareLifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				60C32953EE793E9A02C2A060D7DF28AA /* GHLShareLifecycle.h */,
+				CCDB927A47584824E4131B4C1DADBF40 /* GHLShareLifecycle.m */,
+				B4D27CF62AFC30F03661ECD1A44A22AB /* Pod */,
+				024C6D0E3D1837B67810CF8F79859729 /* Support Files */,
+			);
+			name = GHLShareLifecycle;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		60ECD05AB32651379BACCF765A4F845C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D8FB6D241F742CD71789D06FB2E2833 /* A4ShareLifecycle.modulemap */,
+				0B4CD87AF3BC561EBDE07F7AAE050043 /* A4ShareLifecycle.xcconfig */,
+				6A9062C6501108BE51A85F4EAC73D78E /* A4ShareLifecycle-dummy.m */,
+				2E2A7121C425E20AFB65E38E70F01833 /* A4ShareLifecycle-Info.plist */,
+				185D755E6B750658BAB4139B900C777A /* A4ShareLifecycle-prefix.pch */,
+				4A67FF7552E0C7A1D7CA15220DB61E01 /* A4ShareLifecycle-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../GHLShareLifecycle/Example/Pods/Target Support Files/A4ShareLifecycle";
+			sourceTree = "<group>";
+		};
+		84A00619B60470EC62D0175523B44D65 /* Pods-GHLShareLifecycle_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CB686655584FFCDA91BA61AD3DEAC629 /* Pods-GHLShareLifecycle_Tests.modulemap */,
+				4349C4837678B1920E461003231C1243 /* Pods-GHLShareLifecycle_Tests-acknowledgements.markdown */,
+				535E3E297EC184E127C4209B6EE3B629 /* Pods-GHLShareLifecycle_Tests-acknowledgements.plist */,
+				EF0E93E1462546640D0CCF50B8BFFCF7 /* Pods-GHLShareLifecycle_Tests-dummy.m */,
+				94D9722EBF448D3B744DA7807F2801C2 /* Pods-GHLShareLifecycle_Tests-Info.plist */,
+				19A8F53BE555AF120BEF57FE59763CB3 /* Pods-GHLShareLifecycle_Tests-umbrella.h */,
+				B85542B50069DF8C053C7018EB4F059B /* Pods-GHLShareLifecycle_Tests.debug.xcconfig */,
+				F433CA91C94015C9CD26BD3172EE0958 /* Pods-GHLShareLifecycle_Tests.release.xcconfig */,
+			);
+			name = "Pods-GHLShareLifecycle_Tests";
+			path = "Target Support Files/Pods-GHLShareLifecycle_Tests";
+			sourceTree = "<group>";
+		};
+		8ADCA3D9AF45E7F025A53E09E1063A60 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C7A7989377F5A4CED200FCF528BD0D35 /* a4ifecycle.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8AF7EA424760B8FDAE11CF5071D971A2 /* a4ifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				8F6EDADFF59BCCCD74E8EF0B098352A7 /* GHLShareLifecycle+a4ifecycle.h */,
+				6422D6A25D739104FA7F126BFD30F041 /* GHLShareLifecycle+a4ifecycle.m */,
+				8ADCA3D9AF45E7F025A53E09E1063A60 /* Pod */,
+				95A84AEA7334D8C2F6E3B267C47C777D /* Support Files */,
+			);
+			name = a4ifecycle;
+			path = ../../../a4ifecycle;
+			sourceTree = "<group>";
+		};
+		957B115B5FA9EC4B7CBAC03251CA75AE /* ALifscycle */ = {
+			isa = PBXGroup;
+			children = (
+				9F262E542191067F6771AF12BC36AA71 /* GHLShareLifecycle+ALifecycle.h */,
+				F80BB675F8D1901AE8366CAD93F0174D /* GHLShareLifecycle+ALifecycle.m */,
+				401209F5F0E797A19ED67A17EC292BDB /* Pod */,
+				98AAE9D022426CE449101B08BD151FD0 /* Support Files */,
+			);
+			name = ALifscycle;
+			path = ../../../ALifscycle;
+			sourceTree = "<group>";
+		};
+		95A84AEA7334D8C2F6E3B267C47C777D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C08B984E58506B5EFA2A0C0AD3503AB /* a4ifecycle.modulemap */,
+				02831355748E04DC1311586A30426F1B /* a4ifecycle.xcconfig */,
+				F06A67FB8D3F19BCBB0D36E58A70FE3A /* a4ifecycle-dummy.m */,
+				7A3091F5E3779E030DE111B703A3E8D9 /* a4ifecycle-Info.plist */,
+				F369B5387DBF65A25A623ED26B018E03 /* a4ifecycle-prefix.pch */,
+				6C60C4A6DF27A31413D8D6BF93653E29 /* a4ifecycle-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../GHLShareLifecycle/Example/Pods/Target Support Files/a4ifecycle";
+			sourceTree = "<group>";
+		};
+		98AAE9D022426CE449101B08BD151FD0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D2A314610FE6B98DFEB0458E2919CD7 /* ALifscycle.modulemap */,
+				64978EED0CC97C45E201F41526475214 /* ALifscycle.xcconfig */,
+				25CD13C40657ED450182DD78E089A19A /* ALifscycle-dummy.m */,
+				9B8CEC251F3F75C8261A14444E5DDC10 /* ALifscycle-Info.plist */,
+				E45B00A8A1F9B4DC47C53E3BFCBE8DFE /* ALifscycle-prefix.pch */,
+				679BEA40EB613E833FB071C5C9BE9ADB /* ALifscycle-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../GHLShareLifecycle/Example/Pods/Target Support Files/ALifscycle";
+			sourceTree = "<group>";
+		};
+		9DAA03CD0162A716F81606ADCE549DA9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AF7EA424760B8FDAE11CF5071D971A2 /* a4ifecycle */,
+				1BF59EE7E5F6EF67E783F2C6C260FF70 /* A4ShareLifecycle */,
+				957B115B5FA9EC4B7CBAC03251CA75AE /* ALifscycle */,
+				215DAFB8AF71A767BE6A0636290540C9 /* BLifscycle */,
+				4D91C58A703E39C3CA57C91B73D120DD /* GHLShareLifecycle */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B22352DB1E20FA7439D120E93CA588A0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F91D11966FE31EAB91603DF5FB6E0B50 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B3C1F72B4DA7C2E61A7557769CA08AAB /* Pods-GHLShareLifecycle_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4D707D09551AF23AE794B0BD79D9EED1 /* Pods-GHLShareLifecycle_Example.modulemap */,
+				1BA2782F93D7707CA8B935CF73C961F4 /* Pods-GHLShareLifecycle_Example-acknowledgements.markdown */,
+				AAA4E80E2FC8E80FF012684929D328F6 /* Pods-GHLShareLifecycle_Example-acknowledgements.plist */,
+				0DDE1C9D4FC0CEFE3BDEA527ECFE0762 /* Pods-GHLShareLifecycle_Example-dummy.m */,
+				38DD1E352CF08E3958A46F41D448C913 /* Pods-GHLShareLifecycle_Example-frameworks.sh */,
+				13273D82C94B63436B3A79BD76E17CB0 /* Pods-GHLShareLifecycle_Example-Info.plist */,
+				8DB1C8BE05052E0E0B0BF4435B309511 /* Pods-GHLShareLifecycle_Example-umbrella.h */,
+				0C30A12DAF18A42DEE15BBF2DCCD12FF /* Pods-GHLShareLifecycle_Example.debug.xcconfig */,
+				E4C0E9305C5C77F55DB80C6D2B2F4C99 /* Pods-GHLShareLifecycle_Example.release.xcconfig */,
+			);
+			name = "Pods-GHLShareLifecycle_Example";
+			path = "Target Support Files/Pods-GHLShareLifecycle_Example";
+			sourceTree = "<group>";
+		};
+		B4D27CF62AFC30F03661ECD1A44A22AB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FA4147530AEEF0C2C4B373C5B71DBD18 /* GHLShareLifecycle.podspec */,
+				79EE2CC84085CB4A7EEE5A6599F8B3F0 /* LICENSE */,
+				78ACE3428B14CF8514746D8B55B9E023 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C7A3AA41284FA5E39DDAB8DD4525AF98 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3C1F72B4DA7C2E61A7557769CA08AAB /* Pods-GHLShareLifecycle_Example */,
+				84A00619B60470EC62D0175523B44D65 /* Pods-GHLShareLifecycle_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9DAA03CD0162A716F81606ADCE549DA9 /* Development Pods */,
+				231DE23E07C4699EDB18CB17EBDFFE79 /* Frameworks */,
+				0E20FB7B6F77740E99AA8EAE6DE7A5F4 /* Products */,
+				C7A3AA41284FA5E39DDAB8DD4525AF98 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1C22883292AD24FC1F30B390335AE1C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6553CED1F74C9BB4B5938FDA47998535 /* BLifscycle.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D3E6B20862FC76D4DA6C18A147AB653 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DD64B2BB67A5DD05B352B84B49B1BF /* A4ShareLifecycle-umbrella.h in Headers */,
+				7FC1F03C517248C1A18B1E02EB23CFFF /* GHLShareLifecycle+A4Share.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FFEF3536572E2302F37FA71CFE79D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1498D364CD8219919C9AF5299CAA7660 /* a4ifecycle-umbrella.h in Headers */,
+				C713E9122C55F3102A2E7536EF4519D0 /* GHLShareLifecycle+a4ifecycle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE9631E1447FB9FBDA1FA5CB4DA39B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A3A9B542C9CB12C96A6B0EF3CE6CAD /* Pods-GHLShareLifecycle_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4B5160A5C3315D1E944F331B8745E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E991B791E3214DD34771AF611D300C13 /* BLifscycle-umbrella.h in Headers */,
+				BE4E83B1A946C485C862E8A34A6825F2 /* GHLShareLifecycle+BLifecycle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990681F6AD4D50AA2F92A29F30EE0958 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1B96BD695F3A2A90135B828AB35D78 /* ALifscycle-umbrella.h in Headers */,
+				B74756C6CC750EECCA09A4FC4C2B2D5E /* GHLShareLifecycle+ALifecycle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B653A934B97EF57EE17B7170C2219E2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290FB782C8EF515F30AD3A61CC7C9AD7 /* GHLShareLifecycle-umbrella.h in Headers */,
+				9EAD906A1FB614418FD6DF1DA3D8FC37 /* GHLShareLifecycle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB01E74B8A8DBBCE2F0D08341D086DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323A3557EEA6085E1809634CE30F937F /* Pods-GHLShareLifecycle_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27192310C384A5034DD280B19A387F97 /* Pods-GHLShareLifecycle_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1566E4D983C1EF24B707DC99E098F3FE /* Build configuration list for PBXNativeTarget "Pods-GHLShareLifecycle_Example" */;
+			buildPhases = (
+				2AE9631E1447FB9FBDA1FA5CB4DA39B4 /* Headers */,
+				B2267CC982D4F0AB02882D7E2BF41CF1 /* Sources */,
+				2AD4D8BA838465FBB0D6624BB7B98D01 /* Frameworks */,
+				C319A58450EEE24D81D0F1BDEB71D032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B3606AE7154CB8F2224C4718AC56851 /* PBXTargetDependency */,
+				E2D34B2C3F0D59BAAED329450CB5B89B /* PBXTargetDependency */,
+				B592C4996F3F86D18C8B89C3AF748528 /* PBXTargetDependency */,
+				E847E111A8F5615B8614BDCF1A15B34B /* PBXTargetDependency */,
+				5B7A55170F4D71902797D218A4C00794 /* PBXTargetDependency */,
+			);
+			name = "Pods-GHLShareLifecycle_Example";
+			productName = "Pods-GHLShareLifecycle_Example";
+			productReference = 9125052B6628AD7B0B5EB84D07DCC2F6 /* Pods_GHLShareLifecycle_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		33A78401D3A5C637907CEC6DAEC0EE1D /* a4ifecycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5245A7EAFE4E91981F6EEBCD6C1B21CE /* Build configuration list for PBXNativeTarget "a4ifecycle" */;
+			buildPhases = (
+				20FFEF3536572E2302F37FA71CFE79D0 /* Headers */,
+				FA7032B6D041AEE27F58E9772D779CB7 /* Sources */,
+				7F802EA63F7F847DF082F3ECD5CBEF73 /* Frameworks */,
+				A5837BAF13A31A9E86F34F2C6167A4B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB7A247CFEF79F1457B89F2F78690EB1 /* PBXTargetDependency */,
+			);
+			name = a4ifecycle;
+			productName = a4ifecycle;
+			productReference = 8BC08991DA82468EF48DB77190FA6CA5 /* a4ifecycle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3FAD79CB390AB4A65CF9D87D9D4E53C7 /* BLifscycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5B2DD05C11FBAAA14DDD6027D16920 /* Build configuration list for PBXNativeTarget "BLifscycle" */;
+			buildPhases = (
+				6D4B5160A5C3315D1E944F331B8745E1 /* Headers */,
+				65D51A85E742F48EA0D55C1CB42B4044 /* Sources */,
+				9D0F3AC0C36E62863A5B179E5536E4B1 /* Frameworks */,
+				DD1C9264CD0480FC483412B92BE7973B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E20E3AABA7F6B01D32683840A07FC1E /* PBXTargetDependency */,
+			);
+			name = BLifscycle;
+			productName = BLifscycle;
+			productReference = 43052FDD1D7F2AD8C3C2C8925EE5EAAA /* BLifscycle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4CE09C4D05160A7DE45880B7344E4C99 /* Pods-GHLShareLifecycle_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FC6DC7C613840B458C6360C203EE9B /* Build configuration list for PBXNativeTarget "Pods-GHLShareLifecycle_Tests" */;
+			buildPhases = (
+				DFB01E74B8A8DBBCE2F0D08341D086DE /* Headers */,
+				3AF8725604E339BDE709D4047FFEE5C4 /* Sources */,
+				EB1FC1A6B84376625F1897CE30B53ABC /* Frameworks */,
+				4929CD84AC2D47317615320CBFBDE443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56AB6FD3706F7053C7BBFFE66C06705F /* PBXTargetDependency */,
+			);
+			name = "Pods-GHLShareLifecycle_Tests";
+			productName = "Pods-GHLShareLifecycle_Tests";
+			productReference = E00A1CC9DD9E7BE4C7D54D755F9DAB8D /* Pods_GHLShareLifecycle_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		692CB72B9C2E7D6EFE2579570860E74F /* ALifscycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD79A5D75CEE526F06D87A0C2A7DD76 /* Build configuration list for PBXNativeTarget "ALifscycle" */;
+			buildPhases = (
+				990681F6AD4D50AA2F92A29F30EE0958 /* Headers */,
+				E7BAC2035062814F45E29E570CF60F7D /* Sources */,
+				896193AD78A3559602C0058DBD49C528 /* Frameworks */,
+				60BFE4CBE43677CE57645A7DB6655472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34AB5ACA010417DD832D5A934843FD9E /* PBXTargetDependency */,
+			);
+			name = ALifscycle;
+			productName = ALifscycle;
+			productReference = E39F2FF0FFF0DBE3F53FCD8DFE29454A /* ALifscycle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8CE151B62080E6076E65C0F21D6597A7 /* A4ShareLifecycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31D25C19C242F4417C6E86577C910530 /* Build configuration list for PBXNativeTarget "A4ShareLifecycle" */;
+			buildPhases = (
+				1D3E6B20862FC76D4DA6C18A147AB653 /* Headers */,
+				8F7D675B1A23FFB87AC20B5F562A8B0B /* Sources */,
+				1B165314BAFF1A720F5C7158932A166A /* Frameworks */,
+				CD09C15557A5BFB1FD08A65343812744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DD4466DE1A7C1B0776490247105A34D /* PBXTargetDependency */,
+			);
+			name = A4ShareLifecycle;
+			productName = A4ShareLifecycle;
+			productReference = 65A53732521DC03B37DACA88E62E8292 /* A4ShareLifecycle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF12A80D2A50B00FE09E9087C4DCA772 /* GHLShareLifecycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D62FC993E7A94B69359A514AF95EA0C /* Build configuration list for PBXNativeTarget "GHLShareLifecycle" */;
+			buildPhases = (
+				B653A934B97EF57EE17B7170C2219E2C /* Headers */,
+				5FC19642EC9901085B1C72970F1AA238 /* Sources */,
+				C513190BC78FE1AB3965B8D55E8203B4 /* Frameworks */,
+				F6FAFE7C8469D1FD4376B6F46CF0B43F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHLShareLifecycle;
+			productName = GHLShareLifecycle;
+			productReference = 809942952D6BE24866CF784BF0BB3F07 /* GHLShareLifecycle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0E20FB7B6F77740E99AA8EAE6DE7A5F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33A78401D3A5C637907CEC6DAEC0EE1D /* a4ifecycle */,
+				8CE151B62080E6076E65C0F21D6597A7 /* A4ShareLifecycle */,
+				692CB72B9C2E7D6EFE2579570860E74F /* ALifscycle */,
+				3FAD79CB390AB4A65CF9D87D9D4E53C7 /* BLifscycle */,
+				EF12A80D2A50B00FE09E9087C4DCA772 /* GHLShareLifecycle */,
+				27192310C384A5034DD280B19A387F97 /* Pods-GHLShareLifecycle_Example */,
+				4CE09C4D05160A7DE45880B7344E4C99 /* Pods-GHLShareLifecycle_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4929CD84AC2D47317615320CBFBDE443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BFE4CBE43677CE57645A7DB6655472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5837BAF13A31A9E86F34F2C6167A4B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C319A58450EEE24D81D0F1BDEB71D032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD09C15557A5BFB1FD08A65343812744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1C9264CD0480FC483412B92BE7973B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6FAFE7C8469D1FD4376B6F46CF0B43F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AF8725604E339BDE709D4047FFEE5C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409A977A0204B6AE9ECE3EB78A25A4EC /* Pods-GHLShareLifecycle_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC19642EC9901085B1C72970F1AA238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1DF0273F9B996AFC9C9E817292DD79 /* GHLShareLifecycle-dummy.m in Sources */,
+				85F2DD88DDC0D3B5DD4C91D5C1206F1B /* GHLShareLifecycle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D51A85E742F48EA0D55C1CB42B4044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E447A249CB8D0388C557F0199EAEF1 /* BLifscycle-dummy.m in Sources */,
+				A10985C4C8119146834F07D9C2E50B07 /* GHLShareLifecycle+BLifecycle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F7D675B1A23FFB87AC20B5F562A8B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA38B5237B44DF3DDC5450655C3D693E /* A4ShareLifecycle-dummy.m in Sources */,
+				2F0D7E0AD8F803B922E0C1328ADF970A /* GHLShareLifecycle+A4Share.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2267CC982D4F0AB02882D7E2BF41CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D718D3779D5A00C0F8292FA4E142C9E9 /* Pods-GHLShareLifecycle_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BAC2035062814F45E29E570CF60F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9FB93873C1B1076660ABB2EFA099AC /* ALifscycle-dummy.m in Sources */,
+				27781AE141CBC5302AD637E015E424BD /* GHLShareLifecycle+ALifecycle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7032B6D041AEE27F58E9772D779CB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620FBE3BF24BB416C69B1F265D8DB18D /* a4ifecycle-dummy.m in Sources */,
+				3B7F93DAA4C698E16498638FB2F7DB54 /* GHLShareLifecycle+a4ifecycle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34AB5ACA010417DD832D5A934843FD9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GHLShareLifecycle;
+			target = EF12A80D2A50B00FE09E9087C4DCA772 /* GHLShareLifecycle */;
+			targetProxy = 8BC2E53446C33846D2B61955E8E2C979 /* PBXContainerItemProxy */;
+		};
+		56AB6FD3706F7053C7BBFFE66C06705F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GHLShareLifecycle_Example";
+			target = 27192310C384A5034DD280B19A387F97 /* Pods-GHLShareLifecycle_Example */;
+			targetProxy = E7E9D7141E3A0671553B3DF122A0225D /* PBXContainerItemProxy */;
+		};
+		5B3606AE7154CB8F2224C4718AC56851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = A4ShareLifecycle;
+			target = 8CE151B62080E6076E65C0F21D6597A7 /* A4ShareLifecycle */;
+			targetProxy = 88791B25305949760BEA836896158FF2 /* PBXContainerItemProxy */;
+		};
+		5B7A55170F4D71902797D218A4C00794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = a4ifecycle;
+			target = 33A78401D3A5C637907CEC6DAEC0EE1D /* a4ifecycle */;
+			targetProxy = C957036119830D29A3D7A147AFA0381C /* PBXContainerItemProxy */;
+		};
+		7DD4466DE1A7C1B0776490247105A34D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GHLShareLifecycle;
+			target = EF12A80D2A50B00FE09E9087C4DCA772 /* GHLShareLifecycle */;
+			targetProxy = D2DC9440FB17B8F03EB7C81CB0F54699 /* PBXContainerItemProxy */;
+		};
+		8E20E3AABA7F6B01D32683840A07FC1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GHLShareLifecycle;
+			target = EF12A80D2A50B00FE09E9087C4DCA772 /* GHLShareLifecycle */;
+			targetProxy = 649CC076CFB89EEA66CC5830E63BF1E3 /* PBXContainerItemProxy */;
+		};
+		B592C4996F3F86D18C8B89C3AF748528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BLifscycle;
+			target = 3FAD79CB390AB4A65CF9D87D9D4E53C7 /* BLifscycle */;
+			targetProxy = 007E9A81DD006FBCF78A772FF639D8C8 /* PBXContainerItemProxy */;
+		};
+		DB7A247CFEF79F1457B89F2F78690EB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GHLShareLifecycle;
+			target = EF12A80D2A50B00FE09E9087C4DCA772 /* GHLShareLifecycle */;
+			targetProxy = 23D7596368237B51608889C4969A18B4 /* PBXContainerItemProxy */;
+		};
+		E2D34B2C3F0D59BAAED329450CB5B89B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ALifscycle;
+			target = 692CB72B9C2E7D6EFE2579570860E74F /* ALifscycle */;
+			targetProxy = F0C4DCC7F071DB8E6556CC5970FEB245 /* PBXContainerItemProxy */;
+		};
+		E847E111A8F5615B8614BDCF1A15B34B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GHLShareLifecycle;
+			target = EF12A80D2A50B00FE09E9087C4DCA772 /* GHLShareLifecycle */;
+			targetProxy = 669218151FC0A8AAC4B7C5046AAB7133 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FE87F08EF37FFEE315DAF229330E2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02831355748E04DC1311586A30426F1B /* a4ifecycle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/a4ifecycle/a4ifecycle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/a4ifecycle/a4ifecycle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/a4ifecycle/a4ifecycle.modulemap";
+				PRODUCT_MODULE_NAME = a4ifecycle;
+				PRODUCT_NAME = a4ifecycle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		419E307C7D83F46CEF4AA6766FBBF14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 679440C0A790628B9C0A199CAE52B48E /* GHLShareLifecycle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GHLShareLifecycle/GHLShareLifecycle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GHLShareLifecycle/GHLShareLifecycle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GHLShareLifecycle/GHLShareLifecycle.modulemap";
+				PRODUCT_MODULE_NAME = GHLShareLifecycle;
+				PRODUCT_NAME = GHLShareLifecycle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4C019234292F81DAF59AB10BAE57D9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64978EED0CC97C45E201F41526475214 /* ALifscycle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ALifscycle/ALifscycle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALifscycle/ALifscycle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALifscycle/ALifscycle.modulemap";
+				PRODUCT_MODULE_NAME = ALifscycle;
+				PRODUCT_NAME = ALifscycle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55DC3FAE01F6C4177A0B6565B262BEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C30A12DAF18A42DEE15BBF2DCCD12FF /* Pods-GHLShareLifecycle_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GHLShareLifecycle_Example/Pods-GHLShareLifecycle_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GHLShareLifecycle_Example/Pods-GHLShareLifecycle_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		571615A02F59A1D044BD8774C0663FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4C0E9305C5C77F55DB80C6D2B2F4C99 /* Pods-GHLShareLifecycle_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GHLShareLifecycle_Example/Pods-GHLShareLifecycle_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GHLShareLifecycle_Example/Pods-GHLShareLifecycle_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74338E3675A23335ACE047C7808C69CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64978EED0CC97C45E201F41526475214 /* ALifscycle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ALifscycle/ALifscycle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALifscycle/ALifscycle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALifscycle/ALifscycle.modulemap";
+				PRODUCT_MODULE_NAME = ALifscycle;
+				PRODUCT_NAME = ALifscycle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7673DF944E56BA63B9D174DA528E5179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20EB229561B52929FDADFD00D8B1D62B /* BLifscycle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLifscycle/BLifscycle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLifscycle/BLifscycle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLifscycle/BLifscycle.modulemap";
+				PRODUCT_MODULE_NAME = BLifscycle;
+				PRODUCT_NAME = BLifscycle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7881D015EB720141FFF0C632639A3F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4CD87AF3BC561EBDE07F7AAE050043 /* A4ShareLifecycle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/A4ShareLifecycle/A4ShareLifecycle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/A4ShareLifecycle/A4ShareLifecycle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/A4ShareLifecycle/A4ShareLifecycle.modulemap";
+				PRODUCT_MODULE_NAME = A4ShareLifecycle;
+				PRODUCT_NAME = A4ShareLifecycle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BF01DD4E180BDD6421748F5E7BAFEB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20EB229561B52929FDADFD00D8B1D62B /* BLifscycle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLifscycle/BLifscycle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLifscycle/BLifscycle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLifscycle/BLifscycle.modulemap";
+				PRODUCT_MODULE_NAME = BLifscycle;
+				PRODUCT_NAME = BLifscycle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D7E779ACEE85A8785596C72417EECAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F433CA91C94015C9CD26BD3172EE0958 /* Pods-GHLShareLifecycle_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GHLShareLifecycle_Tests/Pods-GHLShareLifecycle_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GHLShareLifecycle_Tests/Pods-GHLShareLifecycle_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		88A1DBD0A9CC7FD24BA158F26CA1B7F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4CD87AF3BC561EBDE07F7AAE050043 /* A4ShareLifecycle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/A4ShareLifecycle/A4ShareLifecycle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/A4ShareLifecycle/A4ShareLifecycle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/A4ShareLifecycle/A4ShareLifecycle.modulemap";
+				PRODUCT_MODULE_NAME = A4ShareLifecycle;
+				PRODUCT_NAME = A4ShareLifecycle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A65D8D187E166ADCD490D0B885C8C070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02831355748E04DC1311586A30426F1B /* a4ifecycle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/a4ifecycle/a4ifecycle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/a4ifecycle/a4ifecycle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/a4ifecycle/a4ifecycle.modulemap";
+				PRODUCT_MODULE_NAME = a4ifecycle;
+				PRODUCT_NAME = a4ifecycle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ACBDB1C05805BF84D7AE0796A0FC800E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85542B50069DF8C053C7018EB4F059B /* Pods-GHLShareLifecycle_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GHLShareLifecycle_Tests/Pods-GHLShareLifecycle_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GHLShareLifecycle_Tests/Pods-GHLShareLifecycle_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F08BE54886CEA77247C2B154D52757FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 679440C0A790628B9C0A199CAE52B48E /* GHLShareLifecycle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GHLShareLifecycle/GHLShareLifecycle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GHLShareLifecycle/GHLShareLifecycle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GHLShareLifecycle/GHLShareLifecycle.modulemap";
+				PRODUCT_MODULE_NAME = GHLShareLifecycle;
+				PRODUCT_NAME = GHLShareLifecycle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CD79A5D75CEE526F06D87A0C2A7DD76 /* Build configuration list for PBXNativeTarget "ALifscycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74338E3675A23335ACE047C7808C69CF /* Debug */,
+				4C019234292F81DAF59AB10BAE57D9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1566E4D983C1EF24B707DC99E098F3FE /* Build configuration list for PBXNativeTarget "Pods-GHLShareLifecycle_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DC3FAE01F6C4177A0B6565B262BEB8 /* Debug */,
+				571615A02F59A1D044BD8774C0663FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D62FC993E7A94B69359A514AF95EA0C /* Build configuration list for PBXNativeTarget "GHLShareLifecycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08BE54886CEA77247C2B154D52757FF /* Debug */,
+				419E307C7D83F46CEF4AA6766FBBF14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31D25C19C242F4417C6E86577C910530 /* Build configuration list for PBXNativeTarget "A4ShareLifecycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A1DBD0A9CC7FD24BA158F26CA1B7F8 /* Debug */,
+				7881D015EB720141FFF0C632639A3F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5245A7EAFE4E91981F6EEBCD6C1B21CE /* Build configuration list for PBXNativeTarget "a4ifecycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE87F08EF37FFEE315DAF229330E2CC /* Debug */,
+				A65D8D187E166ADCD490D0B885C8C070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F5B2DD05C11FBAAA14DDD6027D16920 /* Build configuration list for PBXNativeTarget "BLifscycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF01DD4E180BDD6421748F5E7BAFEB5 /* Debug */,
+				7673DF944E56BA63B9D174DA528E5179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99FC6DC7C613840B458C6360C203EE9B /* Build configuration list for PBXNativeTarget "Pods-GHLShareLifecycle_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBDB1C05805BF84D7AE0796A0FC800E /* Debug */,
+				7D7E779ACEE85A8785596C72417EECAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
