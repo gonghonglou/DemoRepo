@@ -1,0 +1,31 @@
+PODS:
+  - GHLHome (0.1.0)
+  - GHLMediator (0.1.0)
+  - GHLRouter (0.1.0)
+  - GHLSelectorService (0.1.0)
+
+DEPENDENCIES:
+  - GHLHome (from `../GHLHome`)
+  - GHLMediator (from `../GHLMediator`)
+  - GHLRouter (from `../GHLRouter`)
+  - GHLSelectorService (from `../GHLSelectorService`)
+
+EXTERNAL SOURCES:
+  GHLHome:
+    :path: "../GHLHome"
+  GHLMediator:
+    :path: "../GHLMediator"
+  GHLRouter:
+    :path: "../GHLRouter"
+  GHLSelectorService:
+    :path: "../GHLSelectorService"
+
+SPEC CHECKSUMS:
+  GHLHome: c3584fb6e712cfe7b05cb60d1f5013f376a1f3b2
+  GHLMediator: 1d99a3800dfd4ca1f5d88e7795ec3854a4693a1a
+  GHLRouter: 1de9dc41d0ca981d5d5c0edf11445cb93c1bb4d6
+  GHLSelectorService: a87a08623b49b553b36ab082adf2467d0562b205
+
+PODFILE CHECKSUM: bb803fe2854a51aeab7715304744cca0775b8759
+
+COCOAPODS: 1.7.5

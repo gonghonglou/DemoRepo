@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		758B51D522AFC61A0062662C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 758B51D422AFC61A0062662C /* AppDelegate.m */; };
+		758B51D822AFC61A0062662C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758B51D722AFC61A0062662C /* ViewController.m */; };
+		758B51DB22AFC61A0062662C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758B51D922AFC61A0062662C /* Main.storyboard */; };
+		758B51DD22AFC61B0062662C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758B51DC22AFC61B0062662C /* Assets.xcassets */; };
+		758B51E022AFC61B0062662C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758B51DE22AFC61B0062662C /* LaunchScreen.storyboard */; };
+		758B51E322AFC61B0062662C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 758B51E222AFC61B0062662C /* main.m */; };
+		758B521A22B230D30062662C /* UIResponder+GHLEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 758B521922B230D30062662C /* UIResponder+GHLEvent.m */; };
+		A201CECC2F0916A8C5E93E62 /* libPods-GHLDecouplingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FAA747833F432FED0AB0CA9 /* libPods-GHLDecouplingDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FAA747833F432FED0AB0CA9 /* libPods-GHLDecouplingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GHLDecouplingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		376A61AAD071A17E2AAC80B6 /* Pods-GHLDecouplingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHLDecouplingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHLDecouplingDemo/Pods-GHLDecouplingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		758B51D022AFC61A0062662C /* GHLDecouplingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHLDecouplingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		758B51D322AFC61A0062662C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		758B51D422AFC61A0062662C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		758B51D622AFC61A0062662C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		758B51D722AFC61A0062662C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		758B51DA22AFC61A0062662C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		758B51DC22AFC61B0062662C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		758B51DF22AFC61B0062662C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		758B51E122AFC61B0062662C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758B51E222AFC61B0062662C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		758B521822B230D30062662C /* UIResponder+GHLEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+GHLEvent.h"; sourceTree = "<group>"; };
+		758B521922B230D30062662C /* UIResponder+GHLEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+GHLEvent.m"; sourceTree = "<group>"; };
+		B9C884EA3DC95BFE48CEB58F /* Pods-GHLDecouplingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHLDecouplingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHLDecouplingDemo/Pods-GHLDecouplingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		758B51CD22AFC61A0062662C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A201CECC2F0916A8C5E93E62 /* libPods-GHLDecouplingDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C1235A3C5B0E2B9B36CC43F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FAA747833F432FED0AB0CA9 /* libPods-GHLDecouplingDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		311826CAAEF290C2CEAB2DEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9C884EA3DC95BFE48CEB58F /* Pods-GHLDecouplingDemo.debug.xcconfig */,
+				376A61AAD071A17E2AAC80B6 /* Pods-GHLDecouplingDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		758B51C722AFC61A0062662C = {
+			isa = PBXGroup;
+			children = (
+				758B51D222AFC61A0062662C /* GHLDecouplingDemo */,
+				758B51D122AFC61A0062662C /* Products */,
+				311826CAAEF290C2CEAB2DEE /* Pods */,
+				2C1235A3C5B0E2B9B36CC43F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		758B51D122AFC61A0062662C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				758B51D022AFC61A0062662C /* GHLDecouplingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		758B51D222AFC61A0062662C /* GHLDecouplingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				758B51D322AFC61A0062662C /* AppDelegate.h */,
+				758B51D422AFC61A0062662C /* AppDelegate.m */,
+				758B51D622AFC61A0062662C /* ViewController.h */,
+				758B51D722AFC61A0062662C /* ViewController.m */,
+				758B521822B230D30062662C /* UIResponder+GHLEvent.h */,
+				758B521922B230D30062662C /* UIResponder+GHLEvent.m */,
+				758B51D922AFC61A0062662C /* Main.storyboard */,
+				758B51DC22AFC61B0062662C /* Assets.xcassets */,
+				758B51DE22AFC61B0062662C /* LaunchScreen.storyboard */,
+				758B51E122AFC61B0062662C /* Info.plist */,
+				758B51E222AFC61B0062662C /* main.m */,
+			);
+			path = GHLDecouplingDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		758B51CF22AFC61A0062662C /* GHLDecouplingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758B51E622AFC61B0062662C /* Build configuration list for PBXNativeTarget "GHLDecouplingDemo" */;
+			buildPhases = (
+				421FCAE2E3F8D2BCFDD40222 /* [CP] Check Pods Manifest.lock */,
+				758B51CC22AFC61A0062662C /* Sources */,
+				758B51CD22AFC61A0062662C /* Frameworks */,
+				758B51CE22AFC61A0062662C /* Resources */,
+				09A49C47E5770FFAF3F0D4B3 /* [CP] Copy Pods Resources */,
+				758B520B22B1F5950062662C /* [GHL] Config */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHLDecouplingDemo;
+			productName = GHLDecouplingDemo;
+			productReference = 758B51D022AFC61A0062662C /* GHLDecouplingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		758B51C822AFC61A0062662C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "与佳期";
+				TargetAttributes = {
+					758B51CF22AFC61A0062662C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 758B51CB22AFC61A0062662C /* Build configuration list for PBXProject "GHLDecouplingDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 758B51C722AFC61A0062662C;
+			productRefGroup = 758B51D122AFC61A0062662C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				758B51CF22AFC61A0062662C /* GHLDecouplingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		758B51CE22AFC61A0062662C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758B51E022AFC61B0062662C /* LaunchScreen.storyboard in Resources */,
+				758B51DD22AFC61B0062662C /* Assets.xcassets in Resources */,
+				758B51DB22AFC61A0062662C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09A49C47E5770FFAF3F0D4B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GHLDecouplingDemo/Pods-GHLDecouplingDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GHLDecouplingDemo/Pods-GHLDecouplingDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GHLDecouplingDemo/Pods-GHLDecouplingDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		421FCAE2E3F8D2BCFDD40222 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GHLDecouplingDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		758B520B22B1F5950062662C /* [GHL] Config */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[GHL] Config";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# \"${SRCROOT}/bin/generate_targets\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		758B51CC22AFC61A0062662C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758B51D822AFC61A0062662C /* ViewController.m in Sources */,
+				758B521A22B230D30062662C /* UIResponder+GHLEvent.m in Sources */,
+				758B51E322AFC61B0062662C /* main.m in Sources */,
+				758B51D522AFC61A0062662C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		758B51D922AFC61A0062662C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758B51DA22AFC61A0062662C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		758B51DE22AFC61B0062662C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758B51DF22AFC61B0062662C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		758B51E422AFC61B0062662C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		758B51E522AFC61B0062662C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		758B51E722AFC61B0062662C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C884EA3DC95BFE48CEB58F /* Pods-GHLDecouplingDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WEA9M6LGWM;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/GHLHome\"",
+					"\"${PODS_ROOT}/Headers/Public/GHLMediator\"",
+					"\"${PODS_ROOT}/Headers/Public/GHLRouter\"",
+					"\"${PODS_ROOT}/Headers/Public/GHLSelectorService\"",
+				);
+				INFOPLIST_FILE = GHLDecouplingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gonghonglou.GHLDecouplingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		758B51E822AFC61B0062662C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 376A61AAD071A17E2AAC80B6 /* Pods-GHLDecouplingDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WEA9M6LGWM;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/GHLHome\"",
+					"\"${PODS_ROOT}/Headers/Public/GHLMediator\"",
+					"\"${PODS_ROOT}/Headers/Public/GHLRouter\"",
+					"\"${PODS_ROOT}/Headers/Public/GHLSelectorService\"",
+				);
+				INFOPLIST_FILE = GHLDecouplingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gonghonglou.GHLDecouplingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		758B51CB22AFC61A0062662C /* Build configuration list for PBXProject "GHLDecouplingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758B51E422AFC61B0062662C /* Debug */,
+				758B51E522AFC61B0062662C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758B51E622AFC61B0062662C /* Build configuration list for PBXNativeTarget "GHLDecouplingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758B51E722AFC61B0062662C /* Debug */,
+				758B51E822AFC61B0062662C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 758B51C822AFC61A0062662C /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - GHLHome (0.1.0)
+
+DEPENDENCIES:
+  - GHLHome (from `../`)
+
+EXTERNAL SOURCES:
+  GHLHome:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GHLHome: 2b50844bfd5c2581069c1b3c7f00de6ee2e116b7
+
+PODFILE CHECKSUM: 1e01d3cedb2a23cfffad3a73327ef555a94e4d79
+
+COCOAPODS: 1.5.3

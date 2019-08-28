@@ -1,0 +1,16 @@
+PODS:
+  - GHLRouter (0.1.0)
+
+DEPENDENCIES:
+  - GHLRouter (from `../`)
+
+EXTERNAL SOURCES:
+  GHLRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GHLRouter: 567316ba1275e84ea496729cde3d39e1a86adba5
+
+PODFILE CHECKSUM: e3e5c53a7ea7461c30163cd819dffc838b5a8e72
+
+COCOAPODS: 1.5.3

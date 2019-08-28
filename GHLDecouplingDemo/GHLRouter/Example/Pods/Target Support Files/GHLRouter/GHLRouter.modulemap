@@ -1,0 +1,6 @@
+framework module GHLRouter {
+  umbrella header "GHLRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

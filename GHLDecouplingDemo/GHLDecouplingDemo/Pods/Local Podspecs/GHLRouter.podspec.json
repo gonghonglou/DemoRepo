@@ -1,0 +1,28 @@
+{
+  "name": "GHLRouter",
+  "version": "0.1.0",
+  "summary": "A short description of GHLRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gonghonglou/GHLRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gonghonglou": "gonghonglou@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/gonghonglou/GHLRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GHLRouter/Classes/**/*",
+  "resource_bundles": {
+    "GHLRouter": [
+      "GHLRouter/Assets/*.png",
+      "GHLRouter/Config/*.plist"
+    ]
+  }
+}

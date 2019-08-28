@@ -1,0 +1,7 @@
+# yaml 参考格式
+
+GHLHomeViewController:
+    targets:
+        - home/home_page
+        - home/homePage
+

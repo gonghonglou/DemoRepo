@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+require 'yaml'
+
+product_path = "#{ENV["BUILT_PRODUCTS_DIR"]}/#{ENV["PRODUCT_NAME"]}.app"
+
+target_files = Dir.glob("#{product_path}/**/target.{yaml,yml}")
+
+all_targets = target_files.map do |path|
+  YAML.load(File.open(path))
+end.reduce(:merge)
+
+abort "Found not target, this is not right" if all_targets.empty?
+
+File.open "#{product_path}/.ALL_TARGETS.yml", "w" do |file|
+  file.write(all_targets.to_yaml)
+end

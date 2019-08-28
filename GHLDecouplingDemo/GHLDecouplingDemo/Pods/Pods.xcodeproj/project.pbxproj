@@ -1,0 +1,1240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016D70967617C09495791D8C81EE50B4 /* GHLMediator+Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4DE56F329D0E87622A763111D718C3 /* GHLMediator+Home.m */; };
+		026C213C0B1675D93ED9DD9DA9CA2689 /* GHLMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F66A618F2229E773E25603C82FDA112 /* GHLMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DBBA43F44F3CB8CD8BA25A734934D2A /* GHLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E6D89B74FCA27D54686A6221FEBF6E /* GHLHomeViewController.m */; };
+		1E92C3A9123AA28AB98F679DFEAD3EF5 /* GHLHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2539E147456ED90BB2078E92F52240EE /* GHLHomeViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1EC63081E6473B3196D93C55FD0F5388 /* selector_home.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F971F719735BCBC5CEAEC1E5BFBBF83 /* selector_home.m */; };
+		2720F576FE29FCD6BD27803540CEC8D8 /* target_home.h in Headers */ = {isa = PBXBuildFile; fileRef = C570E6F5372C836173B8F130F1814792 /* target_home.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		43B8DBC20EE7396451B83409B7C6968C /* selector_home.h in Headers */ = {isa = PBXBuildFile; fileRef = CEEE99F403E412CD513DB1D3423B96E6 /* selector_home.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B8DAA9E344E600CEBF9C13703C0EF00 /* target_home.m in Sources */ = {isa = PBXBuildFile; fileRef = C568A9C72D6B519D7A0221E5A8FDD355 /* target_home.m */; };
+		5AFA42A4DF34387F6A50676DCFFC11C3 /* GHLSelectorService.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ACF6E38665FE2B75565E8CFC81AD78 /* GHLSelectorService.m */; };
+		6762DC500525E323E4179CBB3D7260CF /* GHLMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B6D772CBB16F50BD42B0529E30FEF0 /* GHLMediator.m */; };
+		7B1ECBABEE98460C3F18927F20EDD66B /* GHLMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3526316A7FC845819AD9FB02F507969C /* GHLMediator-dummy.m */; };
+		91C3A3A4F195035F569339FE4AF7F5E7 /* GHLHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F78CD2AA7E1B066571F644BE863523D6 /* GHLHome-dummy.m */; };
+		987BC6BFF71DFB51625D6E189282BEFD /* GHLSelectorService.h in Headers */ = {isa = PBXBuildFile; fileRef = 31932D1D73FB372499B6008B73B04786 /* GHLSelectorService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA429435A7CC16BDF016163F31558C4D /* Pods-GHLDecouplingDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A168542C4029EA0B24FEB0B46278EF /* Pods-GHLDecouplingDemo-dummy.m */; };
+		AE5B25C77A0146DA7FF1E7FCE93B5C37 /* GHLSelectorService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBEBF25BE5F04204A6FD0C3122A528E /* GHLSelectorService-dummy.m */; };
+		B2834AE385F28385D6F1759A06BC379E /* GHLMediator+Home.h in Headers */ = {isa = PBXBuildFile; fileRef = FA286D638D99BF0BD43D7D54F5B539BB /* GHLMediator+Home.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B2B2EFEBC9818506026823A48FE494DF /* GHLRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EDE24E48B4E8E59D3718C39FE3349B6 /* GHLRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1A1005FA369E95ACC300AD22988639E /* GHLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D11770617A9938007A0451046A35724 /* GHLRouter.m */; };
+		E76CE39450833F5B99C8804DB5390613 /* target.yaml in Resources */ = {isa = PBXBuildFile; fileRef = DBB90412A1FBFD49F7A281E21A366E94 /* target.yaml */; };
+		E9B4F7D300A131CBB9DEC6BD7B16F1E5 /* GHLRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B523EFE599DD52F4458DFE300753DEA0 /* GHLRouter-dummy.m */; };
+		F5E25EBBA8BA19C5B5F9EDE44714D0C1 /* target.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADBA03895B0911A6DB5FED3409BB9777 /* target.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		199DA605880DF689180B5703A88316D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D28C07C23AA24F565CF1C357685B5BF1;
+			remoteInfo = GHLRouter;
+		};
+		8585FC0754B92719BEC0045471E060B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F568FB5C7C9DA86964829CFF38504D6;
+			remoteInfo = GHLHome;
+		};
+		8A1AC4B620A3A89C04F93D0FDED3B721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB00327032BAC35CAE428DD915EBEEB9;
+			remoteInfo = GHLMediator;
+		};
+		902E981E24808A216D5D94ED1543090F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A20CF331F5D3E71DDB6820CED51998D;
+			remoteInfo = "GHLHome-GHLHome";
+		};
+		909155373D2D5BC776646DA88B486BAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA660785D1F562C0E2E428DE50EE1582;
+			remoteInfo = GHLSelectorService;
+		};
+		B9E9CEE016165FC7297708A23B87F871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC189437E44C4E16E3DD1DE856AD189;
+			remoteInfo = "GHLRouter-GHLRouter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08FEE51B1A9D4D12546EA42FDA7A1C74 /* ResourceBundle-GHLHome-GHLHome-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GHLHome-GHLHome-Info.plist"; sourceTree = "<group>"; };
+		0D42D3AD13367BE4E67066125C0E756F /* libGHLRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGHLRouter.a; path = libGHLRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F66A618F2229E773E25603C82FDA112 /* GHLMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLMediator.h; path = GHLMediator/Classes/GHLMediator.h; sourceTree = "<group>"; };
+		216F21FAD89A31BE9275981D9B891429 /* libGHLMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGHLMediator.a; path = libGHLMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B6D772CBB16F50BD42B0529E30FEF0 /* GHLMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLMediator.m; path = GHLMediator/Classes/GHLMediator.m; sourceTree = "<group>"; };
+		21CA2F2EC70BA12AF0121BD5F2BB0C03 /* libGHLSelectorService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGHLSelectorService.a; path = libGHLSelectorService.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2539E147456ED90BB2078E92F52240EE /* GHLHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLHomeViewController.h; path = GHLHome/Classes/GHLHomeViewController.h; sourceTree = "<group>"; };
+		2896DC823CA8741E7133D16E4CC2E752 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2B8BD1F5477F35A8E57063E93B95849F /* libPods-GHLDecouplingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GHLDecouplingDemo.a"; path = "libPods-GHLDecouplingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3077737EDDED3E158540687F7B0248E2 /* GHLMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHLMediator-prefix.pch"; sourceTree = "<group>"; };
+		31932D1D73FB372499B6008B73B04786 /* GHLSelectorService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLSelectorService.h; path = GHLSelectorService/Classes/GHLSelectorService.h; sourceTree = "<group>"; };
+		34875D3E4DEDB8B446981CF433061896 /* libGHLHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGHLHome.a; path = libGHLHome.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3526316A7FC845819AD9FB02F507969C /* GHLMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHLMediator-dummy.m"; sourceTree = "<group>"; };
+		37866F4B3C20B356ACCBA0E3C8FAE253 /* GHLHome.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GHLHome.bundle; path = "GHLHome-GHLHome.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDE24E48B4E8E59D3718C39FE3349B6 /* GHLRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLRouter.h; path = GHLRouter/Classes/GHLRouter.h; sourceTree = "<group>"; };
+		3F605020AE5A63953ADA95956D9FAF4D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		423534638611D8AD7D1D595772AF24BE /* GHLMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHLMediator.xcconfig; sourceTree = "<group>"; };
+		4785ED83B5372B309202301603FBAABA /* GHLRouter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GHLRouter.bundle; path = "GHLRouter-GHLRouter.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D11770617A9938007A0451046A35724 /* GHLRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLRouter.m; path = GHLRouter/Classes/GHLRouter.m; sourceTree = "<group>"; };
+		55E9F125E4DE0342AF7DE2BFC88C59B7 /* Pods-GHLDecouplingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHLDecouplingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5A34B82C3D00F8F539220604ACE4B35B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5F971F719735BCBC5CEAEC1E5BFBBF83 /* selector_home.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = selector_home.m; path = GHLHome/Classes/selector_home.m; sourceTree = "<group>"; };
+		63330D6F3C5DC986E7C32ABF87DF1AED /* Pods-GHLDecouplingDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GHLDecouplingDemo-resources.sh"; sourceTree = "<group>"; };
+		6E4DE56F329D0E87622A763111D718C3 /* GHLMediator+Home.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GHLMediator+Home.m"; path = "GHLMediator/Classes/GHLMediator+Home.m"; sourceTree = "<group>"; };
+		7C163C86A94087A4EE75A01E94FCA19E /* Pods-GHLDecouplingDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHLDecouplingDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		80202547C182A34A4EF5BD5A1740D44B /* ResourceBundle-GHLRouter-GHLRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GHLRouter-GHLRouter-Info.plist"; sourceTree = "<group>"; };
+		894D181229696285C6ACB9C11F964B9F /* GHLRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHLRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9972D8EA5A2D2DD7DEF526C2BA5A6178 /* GHLSelectorService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHLSelectorService-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1CAE2ECB20E4EBE854481B760797A8C /* GHLHome.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHLHome.xcconfig; sourceTree = "<group>"; };
+		A3A168542C4029EA0B24FEB0B46278EF /* Pods-GHLDecouplingDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GHLDecouplingDemo-dummy.m"; sourceTree = "<group>"; };
+		A3AF88ECD2DDD355543BBE38889CF931 /* GHLMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHLMediator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9E6D89B74FCA27D54686A6221FEBF6E /* GHLHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLHomeViewController.m; path = GHLHome/Classes/GHLHomeViewController.m; sourceTree = "<group>"; };
+		ABBEBF25BE5F04204A6FD0C3122A528E /* GHLSelectorService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHLSelectorService-dummy.m"; sourceTree = "<group>"; };
+		ADBA03895B0911A6DB5FED3409BB9777 /* target.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = target.plist; path = GHLRouter/Config/target.plist; sourceTree = "<group>"; };
+		B523EFE599DD52F4458DFE300753DEA0 /* GHLRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHLRouter-dummy.m"; sourceTree = "<group>"; };
+		B68EB61D702B52B9E32C8874B114403F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BAA2C4BD372137709FB3D0CB8CC40492 /* GHLSelectorService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHLSelectorService.xcconfig; sourceTree = "<group>"; };
+		BBEE6C43D77BFD859477A7319AE5FC5E /* GHLRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHLRouter-prefix.pch"; sourceTree = "<group>"; };
+		BC5A0A57775F8755223159BB78CC3C24 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BFAE717F6D6498AAC3F11C58758F0B81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C568A9C72D6B519D7A0221E5A8FDD355 /* target_home.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = target_home.m; path = GHLHome/Classes/target_home.m; sourceTree = "<group>"; };
+		C570E6F5372C836173B8F130F1814792 /* target_home.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = target_home.h; path = GHLHome/Classes/target_home.h; sourceTree = "<group>"; };
+		C87AA621017BA22663DFFC08756736E1 /* Pods-GHLDecouplingDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GHLDecouplingDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA9BB421DFFFF877FC30C555613C62E4 /* Pods-GHLDecouplingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHLDecouplingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CAB4EF5053121B7877E0FF25212D4036 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CE18C884EB433A69B65585772E5C9CF3 /* GHLRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHLRouter.xcconfig; sourceTree = "<group>"; };
+		CEEE99F403E412CD513DB1D3423B96E6 /* selector_home.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = selector_home.h; path = GHLHome/Classes/selector_home.h; sourceTree = "<group>"; };
+		D34D662136E7BE41534B89D28369C116 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D6E30AC6B07F2E8A7F5BD0EE841F4C2A /* GHLSelectorService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHLSelectorService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D70BCBED164ED227D943D31CC293CEC7 /* GHLHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHLHome-prefix.pch"; sourceTree = "<group>"; };
+		DBB90412A1FBFD49F7A281E21A366E94 /* target.yaml */ = {isa = PBXFileReference; includeInIndex = 1; name = target.yaml; path = GHLHome/Config/target.yaml; sourceTree = "<group>"; };
+		E4ACF6E38665FE2B75565E8CFC81AD78 /* GHLSelectorService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLSelectorService.m; path = GHLSelectorService/Classes/GHLSelectorService.m; sourceTree = "<group>"; };
+		F78CD2AA7E1B066571F644BE863523D6 /* GHLHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHLHome-dummy.m"; sourceTree = "<group>"; };
+		F936736461CB315C7FDEFFD6F42AEBC5 /* GHLHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHLHome.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA286D638D99BF0BD43D7D54F5B539BB /* GHLMediator+Home.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GHLMediator+Home.h"; path = "GHLMediator/Classes/GHLMediator+Home.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FD7DE128B2E84726F5D155075A0D311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CB410F6E5E49D5BDAF22CCDA4EAAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806B8350A5C0D2FF28E0FE99CA731BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB137D88CC3B7A6C39D4B1E70E814099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0AD01DF02371D9D55A1CDD663710EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F124B396BBAEAF5F3544155B901D360B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FF6E36F391B5FB635FE6103107499E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19F3B85E26DF71D67914A07C1395C7BC /* GHLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				3EDE24E48B4E8E59D3718C39FE3349B6 /* GHLRouter.h */,
+				4D11770617A9938007A0451046A35724 /* GHLRouter.m */,
+				F95D2CE89BB927493B47DA6D4F3E4AEC /* Pod */,
+				E8E87C4F57C96B4E83FA48A0FD556FDB /* Resources */,
+				66564AA832216584CEA04DC64909D057 /* Support Files */,
+			);
+			name = GHLRouter;
+			path = ../../GHLRouter;
+			sourceTree = "<group>";
+		};
+		1FE3E07E237B07D8355ED869076D1C17 /* Pods-GHLDecouplingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C87AA621017BA22663DFFC08756736E1 /* Pods-GHLDecouplingDemo-acknowledgements.markdown */,
+				7C163C86A94087A4EE75A01E94FCA19E /* Pods-GHLDecouplingDemo-acknowledgements.plist */,
+				A3A168542C4029EA0B24FEB0B46278EF /* Pods-GHLDecouplingDemo-dummy.m */,
+				63330D6F3C5DC986E7C32ABF87DF1AED /* Pods-GHLDecouplingDemo-resources.sh */,
+				55E9F125E4DE0342AF7DE2BFC88C59B7 /* Pods-GHLDecouplingDemo.debug.xcconfig */,
+				CA9BB421DFFFF877FC30C555613C62E4 /* Pods-GHLDecouplingDemo.release.xcconfig */,
+			);
+			name = "Pods-GHLDecouplingDemo";
+			path = "Target Support Files/Pods-GHLDecouplingDemo";
+			sourceTree = "<group>";
+		};
+		204C258FA6AA51EA49D280F5D04F39C0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FE3E07E237B07D8355ED869076D1C17 /* Pods-GHLDecouplingDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3DB5FAF7F6C0E4C113BCDFC3262CD20C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D6E30AC6B07F2E8A7F5BD0EE841F4C2A /* GHLSelectorService.podspec */,
+				BFAE717F6D6498AAC3F11C58758F0B81 /* LICENSE */,
+				3F605020AE5A63953ADA95956D9FAF4D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		459BC5B7CB921E375E8CB508CD5081AF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F3A1AE06BA299381702DB03629C9A6A /* GHLHome */,
+				5653B386B4607DDEE46E5F6217A8EB4A /* GHLMediator */,
+				19F3B85E26DF71D67914A07C1395C7BC /* GHLRouter */,
+				9EF655A578DF1914CE039C0AADF3EEFD /* GHLSelectorService */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5653B386B4607DDEE46E5F6217A8EB4A /* GHLMediator */ = {
+			isa = PBXGroup;
+			children = (
+				0F66A618F2229E773E25603C82FDA112 /* GHLMediator.h */,
+				21B6D772CBB16F50BD42B0529E30FEF0 /* GHLMediator.m */,
+				FA286D638D99BF0BD43D7D54F5B539BB /* GHLMediator+Home.h */,
+				6E4DE56F329D0E87622A763111D718C3 /* GHLMediator+Home.m */,
+				FA66D4FA2B94DC860E2172C15E209673 /* Pod */,
+				ACA3F72D966DB8E8B58643E548DEE47A /* Support Files */,
+			);
+			name = GHLMediator;
+			path = ../../GHLMediator;
+			sourceTree = "<group>";
+		};
+		5F3A1AE06BA299381702DB03629C9A6A /* GHLHome */ = {
+			isa = PBXGroup;
+			children = (
+				2539E147456ED90BB2078E92F52240EE /* GHLHomeViewController.h */,
+				A9E6D89B74FCA27D54686A6221FEBF6E /* GHLHomeViewController.m */,
+				CEEE99F403E412CD513DB1D3423B96E6 /* selector_home.h */,
+				5F971F719735BCBC5CEAEC1E5BFBBF83 /* selector_home.m */,
+				C570E6F5372C836173B8F130F1814792 /* target_home.h */,
+				C568A9C72D6B519D7A0221E5A8FDD355 /* target_home.m */,
+				6A6763766E42A179DDA3F64CF18C042B /* Pod */,
+				D2F98A10954305BA87AC36A06BDAF5A2 /* Resources */,
+				9EEAB72B4668FDD17C4EDC3D24280B61 /* Support Files */,
+			);
+			name = GHLHome;
+			path = ../../GHLHome;
+			sourceTree = "<group>";
+		};
+		66564AA832216584CEA04DC64909D057 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE18C884EB433A69B65585772E5C9CF3 /* GHLRouter.xcconfig */,
+				B523EFE599DD52F4458DFE300753DEA0 /* GHLRouter-dummy.m */,
+				BBEE6C43D77BFD859477A7319AE5FC5E /* GHLRouter-prefix.pch */,
+				80202547C182A34A4EF5BD5A1740D44B /* ResourceBundle-GHLRouter-GHLRouter-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../GHLDecouplingDemo/Pods/Target Support Files/GHLRouter";
+			sourceTree = "<group>";
+		};
+		6A6763766E42A179DDA3F64CF18C042B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F936736461CB315C7FDEFFD6F42AEBC5 /* GHLHome.podspec */,
+				5A34B82C3D00F8F539220604ACE4B35B /* LICENSE */,
+				BC5A0A57775F8755223159BB78CC3C24 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9EEAB72B4668FDD17C4EDC3D24280B61 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1CAE2ECB20E4EBE854481B760797A8C /* GHLHome.xcconfig */,
+				F78CD2AA7E1B066571F644BE863523D6 /* GHLHome-dummy.m */,
+				D70BCBED164ED227D943D31CC293CEC7 /* GHLHome-prefix.pch */,
+				08FEE51B1A9D4D12546EA42FDA7A1C74 /* ResourceBundle-GHLHome-GHLHome-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../GHLDecouplingDemo/Pods/Target Support Files/GHLHome";
+			sourceTree = "<group>";
+		};
+		9EF655A578DF1914CE039C0AADF3EEFD /* GHLSelectorService */ = {
+			isa = PBXGroup;
+			children = (
+				31932D1D73FB372499B6008B73B04786 /* GHLSelectorService.h */,
+				E4ACF6E38665FE2B75565E8CFC81AD78 /* GHLSelectorService.m */,
+				3DB5FAF7F6C0E4C113BCDFC3262CD20C /* Pod */,
+				AB8518964783FD060F8C13356ED67D77 /* Support Files */,
+			);
+			name = GHLSelectorService;
+			path = ../../GHLSelectorService;
+			sourceTree = "<group>";
+		};
+		AB8518964783FD060F8C13356ED67D77 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAA2C4BD372137709FB3D0CB8CC40492 /* GHLSelectorService.xcconfig */,
+				ABBEBF25BE5F04204A6FD0C3122A528E /* GHLSelectorService-dummy.m */,
+				9972D8EA5A2D2DD7DEF526C2BA5A6178 /* GHLSelectorService-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../GHLDecouplingDemo/Pods/Target Support Files/GHLSelectorService";
+			sourceTree = "<group>";
+		};
+		ACA3F72D966DB8E8B58643E548DEE47A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				423534638611D8AD7D1D595772AF24BE /* GHLMediator.xcconfig */,
+				3526316A7FC845819AD9FB02F507969C /* GHLMediator-dummy.m */,
+				3077737EDDED3E158540687F7B0248E2 /* GHLMediator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../GHLDecouplingDemo/Pods/Target Support Files/GHLMediator";
+			sourceTree = "<group>";
+		};
+		BE5F18B73A82083F1036DF8473C1175C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37866F4B3C20B356ACCBA0E3C8FAE253 /* GHLHome.bundle */,
+				4785ED83B5372B309202301603FBAABA /* GHLRouter.bundle */,
+				34875D3E4DEDB8B446981CF433061896 /* libGHLHome.a */,
+				216F21FAD89A31BE9275981D9B891429 /* libGHLMediator.a */,
+				0D42D3AD13367BE4E67066125C0E756F /* libGHLRouter.a */,
+				21CA2F2EC70BA12AF0121BD5F2BB0C03 /* libGHLSelectorService.a */,
+				2B8BD1F5477F35A8E57063E93B95849F /* libPods-GHLDecouplingDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				459BC5B7CB921E375E8CB508CD5081AF /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				BE5F18B73A82083F1036DF8473C1175C /* Products */,
+				204C258FA6AA51EA49D280F5D04F39C0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D2F98A10954305BA87AC36A06BDAF5A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DBB90412A1FBFD49F7A281E21A366E94 /* target.yaml */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8E87C4F57C96B4E83FA48A0FD556FDB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ADBA03895B0911A6DB5FED3409BB9777 /* target.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F95D2CE89BB927493B47DA6D4F3E4AEC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				894D181229696285C6ACB9C11F964B9F /* GHLRouter.podspec */,
+				B68EB61D702B52B9E32C8874B114403F /* LICENSE */,
+				D34D662136E7BE41534B89D28369C116 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FA66D4FA2B94DC860E2172C15E209673 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A3AF88ECD2DDD355543BBE38889CF931 /* GHLMediator.podspec */,
+				2896DC823CA8741E7133D16E4CC2E752 /* LICENSE */,
+				CAB4EF5053121B7877E0FF25212D4036 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		059A9528FDC2490D8C9CD3CBA5D6325B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2834AE385F28385D6F1759A06BC379E /* GHLMediator+Home.h in Headers */,
+				026C213C0B1675D93ED9DD9DA9CA2689 /* GHLMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B7D6A6C502A25CD3EAB8B1D4126E2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987BC6BFF71DFB51625D6E189282BEFD /* GHLSelectorService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4310DACB0554536C1EA67CEEFF009541 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B2EFEBC9818506026823A48FE494DF /* GHLRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DB28E6DA894C3B808F57C089AABC66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E92C3A9123AA28AB98F679DFEAD3EF5 /* GHLHomeViewController.h in Headers */,
+				43B8DBC20EE7396451B83409B7C6968C /* selector_home.h in Headers */,
+				2720F576FE29FCD6BD27803540CEC8D8 /* target_home.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92679AAD59DCC42CF17C7AAE007A8329 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5A20CF331F5D3E71DDB6820CED51998D /* GHLHome-GHLHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8EF535ED2D61FDA66FEA2A574AEC3F /* Build configuration list for PBXNativeTarget "GHLHome-GHLHome" */;
+			buildPhases = (
+				4FAB294CFD73EF0D20EF8130DFF1F471 /* Sources */,
+				CF0AD01DF02371D9D55A1CDD663710EF /* Frameworks */,
+				954F676E1E34B2E34118ABB26113CA1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GHLHome-GHLHome";
+			productName = "GHLHome-GHLHome";
+			productReference = 37866F4B3C20B356ACCBA0E3C8FAE253 /* GHLHome.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7F568FB5C7C9DA86964829CFF38504D6 /* GHLHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78570C5C5137E303707361D7F7F26550 /* Build configuration list for PBXNativeTarget "GHLHome" */;
+			buildPhases = (
+				82DB28E6DA894C3B808F57C089AABC66 /* Headers */,
+				AF0A94FC60934C6AF09359B3A94E6927 /* Sources */,
+				BB137D88CC3B7A6C39D4B1E70E814099 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				304804BBFA9D0C81A5FDF9A0A03FA506 /* PBXTargetDependency */,
+			);
+			name = GHLHome;
+			productName = GHLHome;
+			productReference = 34875D3E4DEDB8B446981CF433061896 /* libGHLHome.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AA660785D1F562C0E2E428DE50EE1582 /* GHLSelectorService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC70D19EE57114AE2862A7128B6C001 /* Build configuration list for PBXNativeTarget "GHLSelectorService" */;
+			buildPhases = (
+				14B7D6A6C502A25CD3EAB8B1D4126E2C /* Headers */,
+				3360293D499ED9A1CB06E403133F314E /* Sources */,
+				F124B396BBAEAF5F3544155B901D360B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHLSelectorService;
+			productName = GHLSelectorService;
+			productReference = 21CA2F2EC70BA12AF0121BD5F2BB0C03 /* libGHLSelectorService.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CB00327032BAC35CAE428DD915EBEEB9 /* GHLMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070DDA4145E1E1E3D7D51667CBFE13B6 /* Build configuration list for PBXNativeTarget "GHLMediator" */;
+			buildPhases = (
+				059A9528FDC2490D8C9CD3CBA5D6325B /* Headers */,
+				842CB230BD3BAADDC47CF87DEAB530F8 /* Sources */,
+				2FD7DE128B2E84726F5D155075A0D311 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHLMediator;
+			productName = GHLMediator;
+			productReference = 216F21FAD89A31BE9275981D9B891429 /* libGHLMediator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D28C07C23AA24F565CF1C357685B5BF1 /* GHLRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8479D063447DCCCA4A817046E6068146 /* Build configuration list for PBXNativeTarget "GHLRouter" */;
+			buildPhases = (
+				4310DACB0554536C1EA67CEEFF009541 /* Headers */,
+				7EE04EE9FAE7EC14E3142CD3500D7D75 /* Sources */,
+				806B8350A5C0D2FF28E0FE99CA731BD2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A2DD4D4066FB450EF01B7050DD9E7F9 /* PBXTargetDependency */,
+			);
+			name = GHLRouter;
+			productName = GHLRouter;
+			productReference = 0D42D3AD13367BE4E67066125C0E756F /* libGHLRouter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FCC189437E44C4E16E3DD1DE856AD189 /* GHLRouter-GHLRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4015A142E6943A43A757977BFDC60890 /* Build configuration list for PBXNativeTarget "GHLRouter-GHLRouter" */;
+			buildPhases = (
+				D13E8160F52A9E20E9E38BFF7B9E0605 /* Sources */,
+				F2FF6E36F391B5FB635FE6103107499E /* Frameworks */,
+				088B23F8F3140CA95D6FD3D0316A9B60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GHLRouter-GHLRouter";
+			productName = "GHLRouter-GHLRouter";
+			productReference = 4785ED83B5372B309202301603FBAABA /* GHLRouter.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FFAE136A6A3D747BFFEA33CFB17D6A77 /* Pods-GHLDecouplingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5414ED9DF7DBC47D1E0AEE17B3FED94 /* Build configuration list for PBXNativeTarget "Pods-GHLDecouplingDemo" */;
+			buildPhases = (
+				92679AAD59DCC42CF17C7AAE007A8329 /* Headers */,
+				012D21E1669A7E0236C2957593BF2AB5 /* Sources */,
+				64CB410F6E5E49D5BDAF22CCDA4EAAA1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E30CB16581D44382C6DE018516710EF5 /* PBXTargetDependency */,
+				E31F87B59DA3497DCCC942A87E97C527 /* PBXTargetDependency */,
+				C39DF2115D8D0491E74D65A74C499F3C /* PBXTargetDependency */,
+				9788C18049C2FA4D3B0879258EAD83E3 /* PBXTargetDependency */,
+			);
+			name = "Pods-GHLDecouplingDemo";
+			productName = "Pods-GHLDecouplingDemo";
+			productReference = 2B8BD1F5477F35A8E57063E93B95849F /* libPods-GHLDecouplingDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BE5F18B73A82083F1036DF8473C1175C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F568FB5C7C9DA86964829CFF38504D6 /* GHLHome */,
+				5A20CF331F5D3E71DDB6820CED51998D /* GHLHome-GHLHome */,
+				CB00327032BAC35CAE428DD915EBEEB9 /* GHLMediator */,
+				D28C07C23AA24F565CF1C357685B5BF1 /* GHLRouter */,
+				FCC189437E44C4E16E3DD1DE856AD189 /* GHLRouter-GHLRouter */,
+				AA660785D1F562C0E2E428DE50EE1582 /* GHLSelectorService */,
+				FFAE136A6A3D747BFFEA33CFB17D6A77 /* Pods-GHLDecouplingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		088B23F8F3140CA95D6FD3D0316A9B60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E25EBBA8BA19C5B5F9EDE44714D0C1 /* target.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954F676E1E34B2E34118ABB26113CA1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76CE39450833F5B99C8804DB5390613 /* target.yaml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		012D21E1669A7E0236C2957593BF2AB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA429435A7CC16BDF016163F31558C4D /* Pods-GHLDecouplingDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3360293D499ED9A1CB06E403133F314E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5B25C77A0146DA7FF1E7FCE93B5C37 /* GHLSelectorService-dummy.m in Sources */,
+				5AFA42A4DF34387F6A50676DCFFC11C3 /* GHLSelectorService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAB294CFD73EF0D20EF8130DFF1F471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EE04EE9FAE7EC14E3142CD3500D7D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B4F7D300A131CBB9DEC6BD7B16F1E5 /* GHLRouter-dummy.m in Sources */,
+				C1A1005FA369E95ACC300AD22988639E /* GHLRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842CB230BD3BAADDC47CF87DEAB530F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016D70967617C09495791D8C81EE50B4 /* GHLMediator+Home.m in Sources */,
+				7B1ECBABEE98460C3F18927F20EDD66B /* GHLMediator-dummy.m in Sources */,
+				6762DC500525E323E4179CBB3D7260CF /* GHLMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0A94FC60934C6AF09359B3A94E6927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C3A3A4F195035F569339FE4AF7F5E7 /* GHLHome-dummy.m in Sources */,
+				1DBBA43F44F3CB8CD8BA25A734934D2A /* GHLHomeViewController.m in Sources */,
+				1EC63081E6473B3196D93C55FD0F5388 /* selector_home.m in Sources */,
+				4B8DAA9E344E600CEBF9C13703C0EF00 /* target_home.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13E8160F52A9E20E9E38BFF7B9E0605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A2DD4D4066FB450EF01B7050DD9E7F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GHLRouter-GHLRouter";
+			target = FCC189437E44C4E16E3DD1DE856AD189 /* GHLRouter-GHLRouter */;
+			targetProxy = B9E9CEE016165FC7297708A23B87F871 /* PBXContainerItemProxy */;
+		};
+		304804BBFA9D0C81A5FDF9A0A03FA506 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GHLHome-GHLHome";
+			target = 5A20CF331F5D3E71DDB6820CED51998D /* GHLHome-GHLHome */;
+			targetProxy = 902E981E24808A216D5D94ED1543090F /* PBXContainerItemProxy */;
+		};
+		9788C18049C2FA4D3B0879258EAD83E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GHLSelectorService;
+			target = AA660785D1F562C0E2E428DE50EE1582 /* GHLSelectorService */;
+			targetProxy = 909155373D2D5BC776646DA88B486BAA /* PBXContainerItemProxy */;
+		};
+		C39DF2115D8D0491E74D65A74C499F3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GHLRouter;
+			target = D28C07C23AA24F565CF1C357685B5BF1 /* GHLRouter */;
+			targetProxy = 199DA605880DF689180B5703A88316D8 /* PBXContainerItemProxy */;
+		};
+		E30CB16581D44382C6DE018516710EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GHLHome;
+			target = 7F568FB5C7C9DA86964829CFF38504D6 /* GHLHome */;
+			targetProxy = 8585FC0754B92719BEC0045471E060B2 /* PBXContainerItemProxy */;
+		};
+		E31F87B59DA3497DCCC942A87E97C527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GHLMediator;
+			target = CB00327032BAC35CAE428DD915EBEEB9 /* GHLMediator */;
+			targetProxy = 8A1AC4B620A3A89C04F93D0FDED3B721 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		037569E0F29E7DCD51F12FF8C8F33BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18C884EB433A69B65585772E5C9CF3 /* GHLRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GHLRouter";
+				INFOPLIST_FILE = "Target Support Files/GHLRouter/ResourceBundle-GHLRouter-GHLRouter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GHLRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		0CAF8686F51F2805B3DC63E3CDE23EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18C884EB433A69B65585772E5C9CF3 /* GHLRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GHLRouter";
+				INFOPLIST_FILE = "Target Support Files/GHLRouter/ResourceBundle-GHLRouter-GHLRouter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GHLRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		0EF3B2B562FB28918DED5AEDE03B2779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1CAE2ECB20E4EBE854481B760797A8C /* GHLHome.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GHLHome";
+				INFOPLIST_FILE = "Target Support Files/GHLHome/ResourceBundle-GHLHome-GHLHome-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GHLHome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1CDF875706ED2D2A621F49D2B42536B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18C884EB433A69B65585772E5C9CF3 /* GHLRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GHLRouter/GHLRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GHLRouter;
+				PRODUCT_NAME = GHLRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		31FDBFA6C5ED4E52BBAEFBB238E48920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E9F125E4DE0342AF7DE2BFC88C59B7 /* Pods-GHLDecouplingDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A1EEED7E1FE2425843505F4D62F6E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAA2C4BD372137709FB3D0CB8CC40492 /* GHLSelectorService.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GHLSelectorService/GHLSelectorService-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GHLSelectorService;
+				PRODUCT_NAME = GHLSelectorService;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5322D29653F19EE5D5065E3D8114A55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAA2C4BD372137709FB3D0CB8CC40492 /* GHLSelectorService.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GHLSelectorService/GHLSelectorService-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GHLSelectorService;
+				PRODUCT_NAME = GHLSelectorService;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86BCBABA534A7AA4E811D3130C47F7F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1CAE2ECB20E4EBE854481B760797A8C /* GHLHome.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GHLHome";
+				INFOPLIST_FILE = "Target Support Files/GHLHome/ResourceBundle-GHLHome-GHLHome-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GHLHome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		97A04BC722D0A937AE35B0B41F9DF55A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 423534638611D8AD7D1D595772AF24BE /* GHLMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GHLMediator/GHLMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GHLMediator;
+				PRODUCT_NAME = GHLMediator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9A5BFCA66D6C615A5A2CD445A34D63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1CAE2ECB20E4EBE854481B760797A8C /* GHLHome.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GHLHome/GHLHome-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GHLHome;
+				PRODUCT_NAME = GHLHome;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF271D5006F785CCBBDA1A9F23F7D3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1CAE2ECB20E4EBE854481B760797A8C /* GHLHome.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GHLHome/GHLHome-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GHLHome;
+				PRODUCT_NAME = GHLHome;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2AE7CE52262519FDD675D7AB03948B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18C884EB433A69B65585772E5C9CF3 /* GHLRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GHLRouter/GHLRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GHLRouter;
+				PRODUCT_NAME = GHLRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD44FD97BCF21072C8DCB26F8CE18B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA9BB421DFFFF877FC30C555613C62E4 /* Pods-GHLDecouplingDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF0E3766E126AFF4BA28CDFEACAE5444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 423534638611D8AD7D1D595772AF24BE /* GHLMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GHLMediator/GHLMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GHLMediator;
+				PRODUCT_NAME = GHLMediator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		070DDA4145E1E1E3D7D51667CBFE13B6 /* Build configuration list for PBXNativeTarget "GHLMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0E3766E126AFF4BA28CDFEACAE5444 /* Debug */,
+				97A04BC722D0A937AE35B0B41F9DF55A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC70D19EE57114AE2862A7128B6C001 /* Build configuration list for PBXNativeTarget "GHLSelectorService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1EEED7E1FE2425843505F4D62F6E61 /* Debug */,
+				5322D29653F19EE5D5065E3D8114A55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4015A142E6943A43A757977BFDC60890 /* Build configuration list for PBXNativeTarget "GHLRouter-GHLRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CAF8686F51F2805B3DC63E3CDE23EE7 /* Debug */,
+				037569E0F29E7DCD51F12FF8C8F33BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8EF535ED2D61FDA66FEA2A574AEC3F /* Build configuration list for PBXNativeTarget "GHLHome-GHLHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EF3B2B562FB28918DED5AEDE03B2779 /* Debug */,
+				86BCBABA534A7AA4E811D3130C47F7F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78570C5C5137E303707361D7F7F26550 /* Build configuration list for PBXNativeTarget "GHLHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A5BFCA66D6C615A5A2CD445A34D63C /* Debug */,
+				BF271D5006F785CCBBDA1A9F23F7D3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8479D063447DCCCA4A817046E6068146 /* Build configuration list for PBXNativeTarget "GHLRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2AE7CE52262519FDD675D7AB03948B5 /* Debug */,
+				1CDF875706ED2D2A621F49D2B42536B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5414ED9DF7DBC47D1E0AEE17B3FED94 /* Build configuration list for PBXNativeTarget "Pods-GHLDecouplingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FDBFA6C5ED4E52BBAEFBB238E48920 /* Debug */,
+				DD44FD97BCF21072C8DCB26F8CE18B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-GHLDecouplingDemo/Pods-GHLDecouplingDemo-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/GHLHome/GHLHome.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/GHLRouter/GHLRouter.bundle
