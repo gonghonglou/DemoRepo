@@ -15,7 +15,7 @@ static NSString * const kLBLifecycleClass = @"lb_lifecycle_class";
 
 @property (nonatomic, strong) id <UIApplicationDelegate> realDelegate;
 
-@property (nonatomic, copy) NSArray *subCalsses;
+@property (nonatomic, copy) NSArray *subClasses;
 
 @end
 
@@ -35,7 +35,7 @@ static NSString * const kLBLifecycleClass = @"lb_lifecycle_class";
     if (self) {
 #if DEBUG
         NSArray *stringArray = [self _findAllSubClass:[LBLifecycle class]];
-        self.subCalsses = [self _classArrayWithStringArray:stringArray];
+        self.subClasses = [self _classArrayWithStringArray:stringArray];
         [[NSUserDefaults standardUserDefaults] setObject:stringArray forKey:kLBLifecycleClass];
 #else
         NSArray *stringArray = [[NSUserDefaults standardUserDefaults] objectForKey:kLBLifecycleClass];
@@ -92,7 +92,7 @@ static NSString * const kLBLifecycleClass = @"lb_lifecycle_class";
         return YES;
     }
     
-    for (LBLifecycle *module in self.subCalsses) {
+    for (LBLifecycle *module in self.subClasses) {
         if ([self _containsProtocolMethod:aSelector] && [module respondsToSelector:aSelector]) {
             return YES;
         }
@@ -120,7 +120,7 @@ static NSString * const kLBLifecycleClass = @"lb_lifecycle_class";
 
 - (void)forwardInvocation:(NSInvocation *)anInvocation {
     NSMutableArray *allModules = [NSMutableArray arrayWithObjects:self.realDelegate, nil];
-    [allModules addObjectsFromArray:self.subCalsses];
+    [allModules addObjectsFromArray:self.subClasses];
     
     // BOOL 型返回值特殊处理
     if (anInvocation.methodSignature.methodReturnType[0] == 'B') {
