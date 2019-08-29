@@ -11,8 +11,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface GHLShareLifecycle : NSObject
 
-- (NSArray *)findSubClass:(Class)defaultClass;
-
 + (void)execClassSelector:(SEL)selector forClass:(Class)class withParam1:(id)param1 param2:(id _Nullable)param2;
 
 // lifecycle

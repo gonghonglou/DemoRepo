@@ -11,6 +11,8 @@
 #endif
 
 #import "GHLShareLifecycle.h"
+#import "LBApplicationDelegate.h"
+#import "LBLifecycle.h"
 
 FOUNDATION_EXPORT double GHLShareLifecycleVersionNumber;
 FOUNDATION_EXPORT const unsigned char GHLShareLifecycleVersionString[];

@@ -23,24 +23,6 @@
      }];
 }
 
-// 获取所有子类
-+ (NSArray *)findSubClass:(Class)class {
-    // 注册类的总数
-    int count = objc_getClassList(NULL, 0);
-    NSMutableArray *array = [NSMutableArray new];
-    // 获取所有已注册的类
-    Class *classes = (Class *)malloc(sizeof(Class) * count);
-    objc_getClassList(classes, count);
-    
-    for (int i = 0; i < count; i++) {
-        if (class == class_getSuperclass(classes[i])) {
-            [array addObject:classes[i]];
-        }
-    }
-    free(classes);
-    return array;
-}
-
 
 #pragma mark - 寻找方法列表，调用本类/分类方法
 + (void)execClassSelector:(SEL)selector forClass:(Class)class withParam1:(id)param1 param2:(id)param2 {

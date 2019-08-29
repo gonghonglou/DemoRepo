@@ -22,6 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7506A84B2314337C0000286B /* GHLAppDelegate+GHLShareLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506A84A2314337C0000286B /* GHLAppDelegate+GHLShareLifecycle.m */; };
+		75BB3E9D231830A90017091A /* GHLLifecycleB.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BB3E9C231830A90017091A /* GHLLifecycleB.m */; };
+		75BB3EA0231830B00017091A /* GHLLifecycleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BB3E9F231830B00017091A /* GHLLifecycleA.m */; };
 		778E1A07DA7F5BC951261518 /* Pods_GHLShareLifecycle_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C095FB5A0286911CA1BB41F8 /* Pods_GHLShareLifecycle_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		EA3F578607A21F2EECFE4BEE /* Pods_GHLShareLifecycle_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03290F0FC0C6A05A004C0949 /* Pods_GHLShareLifecycle_Example.framework */; };
@@ -65,6 +67,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7506A8492314337C0000286B /* GHLAppDelegate+GHLShareLifecycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHLAppDelegate+GHLShareLifecycle.h"; sourceTree = "<group>"; };
 		7506A84A2314337C0000286B /* GHLAppDelegate+GHLShareLifecycle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GHLAppDelegate+GHLShareLifecycle.m"; sourceTree = "<group>"; };
+		75BB3E9B231830A90017091A /* GHLLifecycleB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHLLifecycleB.h; sourceTree = "<group>"; };
+		75BB3E9C231830A90017091A /* GHLLifecycleB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHLLifecycleB.m; sourceTree = "<group>"; };
+		75BB3E9E231830B00017091A /* GHLLifecycleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHLLifecycleA.h; sourceTree = "<group>"; };
+		75BB3E9F231830B00017091A /* GHLLifecycleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHLLifecycleA.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE217206AAC3CE60F319FED6 /* GHLShareLifecycle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GHLShareLifecycle.podspec; path = ../GHLShareLifecycle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C095FB5A0286911CA1BB41F8 /* Pods_GHLShareLifecycle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GHLShareLifecycle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,6 +162,10 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				75BB3E9E231830B00017091A /* GHLLifecycleA.h */,
+				75BB3E9F231830B00017091A /* GHLLifecycleA.m */,
+				75BB3E9B231830A90017091A /* GHLLifecycleB.h */,
+				75BB3E9C231830A90017091A /* GHLLifecycleB.m */,
 			);
 			name = "Example for GHLShareLifecycle";
 			path = GHLShareLifecycle;
@@ -350,20 +360,9 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GHLShareLifecycle_Example/Pods-GHLShareLifecycle_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/A4ShareLifecycle/A4ShareLifecycle.framework",
-				"${BUILT_PRODUCTS_DIR}/ALifscycle/ALifscycle.framework",
-				"${BUILT_PRODUCTS_DIR}/BLifscycle/BLifscycle.framework",
-				"${BUILT_PRODUCTS_DIR}/GHLShareLifecycle/GHLShareLifecycle.framework",
-				"${BUILT_PRODUCTS_DIR}/a4ifecycle/a4ifecycle.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/A4ShareLifecycle.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ALifscycle.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BLifscycle.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GHLShareLifecycle.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/a4ifecycle.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -379,7 +378,9 @@
 			files = (
 				6003F59E195388D20070C39A /* GHLAppDelegate.m in Sources */,
 				7506A84B2314337C0000286B /* GHLAppDelegate+GHLShareLifecycle.m in Sources */,
+				75BB3E9D231830A90017091A /* GHLLifecycleB.m in Sources */,
 				6003F5A7195388D20070C39A /* GHLViewController.m in Sources */,
+				75BB3EA0231830B00017091A /* GHLLifecycleA.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

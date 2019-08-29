@@ -2,6 +2,8 @@ use_frameworks!
 
 platform :ios, '8.0'
 
+install! 'cocoapods', :disable_input_output_paths => true
+
 target 'GHLShareLifecycle_Example' do
   pod 'GHLShareLifecycle', :path => '../'
   
