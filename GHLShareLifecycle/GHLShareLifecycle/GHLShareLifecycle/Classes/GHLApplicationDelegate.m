@@ -1,17 +1,17 @@
 //
-//  LBApplicationDelegate.m
-//  GHLShareLifecycle
+//  GHLApplicationDelegate.m
+//  Pods
 //
-//  Created by 与佳期 on 2019/8/29.
+//  Created by 与佳期 on 2019/8/30.
 //
 
-#import "LBApplicationDelegate.h"
+#import "GHLApplicationDelegate.h"
 #import <objc/runtime.h>
-#import "LBLifecycle.h"
+#import "GHLLifecycle.h"
 
-static NSString * const kLBLifecycleClass = @"lb_lifecycle_class";
+static NSString * const kGHLLifecycleClass = @"ghl_lifecycle_class";
 
-@interface LBApplicationDelegate ()
+@interface GHLApplicationDelegate ()
 
 @property (nonatomic, strong) id <UIApplicationDelegate> realDelegate;
 
@@ -19,13 +19,13 @@ static NSString * const kLBLifecycleClass = @"lb_lifecycle_class";
 
 @end
 
-@implementation LBApplicationDelegate
+@implementation GHLApplicationDelegate
 
 + (instancetype)sharedInstance {
-    static LBApplicationDelegate *sharedInstance = nil;
+    static GHLApplicationDelegate *sharedInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        sharedInstance = [LBApplicationDelegate new];
+        sharedInstance = [GHLApplicationDelegate new];
     });
     return sharedInstance;
 }
@@ -34,11 +34,11 @@ static NSString * const kLBLifecycleClass = @"lb_lifecycle_class";
     self = [super init];
     if (self) {
 #if DEBUG
-        NSArray *stringArray = [self _findAllSubClass:[LBLifecycle class]];
+        NSArray *stringArray = [self _findAllSubClass:[GHLLifecycle class]];
         self.subClasses = [self _classArrayWithStringArray:stringArray];
-        [[NSUserDefaults standardUserDefaults] setObject:stringArray forKey:kLBLifecycleClass];
+        [[NSUserDefaults standardUserDefaults] setObject:stringArray forKey:kGHLLifecycleClass];
 #else
-        NSArray *stringArray = [[NSUserDefaults standardUserDefaults] objectForKey:kLBLifecycleClass];
+        NSArray *stringArray = [[NSUserDefaults standardUserDefaults] objectForKey:kGHLLifecycleClass];
         self.subCalsses = [self _classArrayWithStringArray:stringArray];
 #endif
     }
@@ -92,7 +92,7 @@ static NSString * const kLBLifecycleClass = @"lb_lifecycle_class";
         return YES;
     }
     
-    for (LBLifecycle *module in self.subClasses) {
+    for (GHLLifecycle *module in self.subClasses) {
         if ([self _containsProtocolMethod:aSelector] && [module respondsToSelector:aSelector]) {
             return YES;
         }
@@ -126,7 +126,7 @@ static NSString * const kLBLifecycleClass = @"lb_lifecycle_class";
     if (anInvocation.methodSignature.methodReturnType[0] == 'B') {
         BOOL realReturnValue = NO;
         
-        for (LBLifecycle *module in allModules) {
+        for (GHLLifecycle *module in allModules) {
             if ([module respondsToSelector:anInvocation.selector]) {
                 [anInvocation invokeWithTarget:module];
                 
@@ -139,7 +139,7 @@ static NSString * const kLBLifecycleClass = @"lb_lifecycle_class";
         
         [anInvocation setReturnValue:&realReturnValue];
     } else {
-        for (LBLifecycle *module in allModules) {
+        for (GHLLifecycle *module in allModules) {
             if ([module respondsToSelector:anInvocation.selector]) {
                 [anInvocation invokeWithTarget:module];
             }
@@ -154,7 +154,7 @@ static NSString * const kLBLifecycleClass = @"lb_lifecycle_class";
 @end
 
 
-@implementation UIApplication (LBLifecycle)
+@implementation UIApplication (GHLLifecycle)
 
 + (void)load {
     static dispatch_once_t onceToken;
@@ -163,7 +163,7 @@ static NSString * const kLBLifecycleClass = @"lb_lifecycle_class";
         Class class = [self class];
         
         SEL originalSelector = @selector(setDelegate:);
-        SEL swizzledSelector = @selector(lb_setDelegate:);
+        SEL swizzledSelector = @selector(ghl_setDelegate:);
         
         Method originalMethod = class_getInstanceMethod(class, originalSelector);
         Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
@@ -177,8 +177,8 @@ static NSString * const kLBLifecycleClass = @"lb_lifecycle_class";
     });
 }
 
-- (void)lb_setDelegate:(id <UIApplicationDelegate>)delegate {
-    [LBApplicationDelegate sharedInstance].realDelegate = delegate;
-    [self lb_setDelegate:(id <UIApplicationDelegate>)[LBApplicationDelegate sharedInstance]];
+- (void)ghl_setDelegate:(id <UIApplicationDelegate>)delegate {
+    [GHLApplicationDelegate sharedInstance].realDelegate = delegate;
+    [self ghl_setDelegate:(id <UIApplicationDelegate>)[GHLApplicationDelegate sharedInstance]];
 }
 @end

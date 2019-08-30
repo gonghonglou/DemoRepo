@@ -12,6 +12,7 @@
 		10E447A249CB8D0388C557F0199EAEF1 /* BLifscycle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD90C8F040B20441EE09F67F319018F /* BLifscycle-dummy.m */; };
 		1498D364CD8219919C9AF5299CAA7660 /* a4ifecycle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECEE82FDFAC12405CDE83F0F4BCBA19 /* a4ifecycle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E1B96BD695F3A2A90135B828AB35D78 /* ALifscycle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AAAF7DCA912DD5D0D4F9AAB77CDF679 /* ALifscycle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20D8D8738F598DFA15670322AE4CE884 /* GHLShareLifecycle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7631C6CFA2DB295EB83520168248661 /* GHLShareLifecycle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		217A4B929AFAAA87FC816EC6316AF07C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91D11966FE31EAB91603DF5FB6E0B50 /* Foundation.framework */; };
 		23E1172242780C372DBF9F23F090C734 /* GHLShareLifecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812CE7717D263B5BBED8A60E03A72552 /* GHLShareLifecycle.framework */; };
 		26DD64B2BB67A5DD05B352B84B49B1BF /* A4ShareLifecycle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD1B44A191E10E9FE7B3E9299404926 /* A4ShareLifecycle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -19,20 +20,19 @@
 		2F0D7E0AD8F803B922E0C1328ADF970A /* GHLShareLifecycle+A4Share.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BE1274E1DDF6602D859F26C83D76A3 /* GHLShareLifecycle+A4Share.m */; };
 		323A3557EEA6085E1809634CE30F937F /* Pods-GHLShareLifecycle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A8F53BE555AF120BEF57FE59763CB3 /* Pods-GHLShareLifecycle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34A3A9B542C9CB12C96A6B0EF3CE6CAD /* Pods-GHLShareLifecycle_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DB1C8BE05052E0E0B0BF4435B309511 /* Pods-GHLShareLifecycle_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37E0077B8C9308BED8A81DDFC8D6FCE8 /* GHLShareLifecycle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F80589B1CF3D410B6AED890C9C1A7E /* GHLShareLifecycle-dummy.m */; };
+		3AEA8EB88B7AF60D81681DB67F021C3F /* GHLShareLifecycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 501F37548AE3CE5F9F6542BA1F9A487D /* GHLShareLifecycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B7F93DAA4C698E16498638FB2F7DB54 /* GHLShareLifecycle+a4ifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7515208BDAFD12C124AEF2D4611A0601 /* GHLShareLifecycle+a4ifecycle.m */; };
 		409A977A0204B6AE9ECE3EB78A25A4EC /* Pods-GHLShareLifecycle_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0E93E1462546640D0CCF50B8BFFCF7 /* Pods-GHLShareLifecycle_Tests-dummy.m */; };
 		4B9FB93873C1B1076660ABB2EFA099AC /* ALifscycle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 308D45B5299FEFF232C90EF8DC6B4B3B /* ALifscycle-dummy.m */; };
-		52F26A577EE83B48D119058D7982D11C /* GHLShareLifecycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 42519017D769AD336198E23B35515E32 /* GHLShareLifecycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F3115BCC0C710AC21A82B9319F10CE4 /* GHLShareLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 525B413710AAC12B53167A757E225531 /* GHLShareLifecycle.m */; };
+		4CD7E8AD60E2C7886918A7AAA5E5C6E5 /* GHLLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 165686D063827CB6A237A02838A8D90C /* GHLLifecycle.m */; };
 		620FBE3BF24BB416C69B1F265D8DB18D /* a4ifecycle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF97BFD024CF6D98FA23B888FC8C4B25 /* a4ifecycle-dummy.m */; };
-		7F83ADC6E8F48C4FED82CB39B301D222 /* GHLShareLifecycle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 156B98355819E2A05775E39A136D33AB /* GHLShareLifecycle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CE36AFFE326A9BF8AAFE0EA134B931E /* GHLShareLifecycle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A9AA770EB3AAD20EFCBC915FC9D286 /* GHLShareLifecycle-dummy.m */; };
 		7FC1F03C517248C1A18B1E02EB23CFFF /* GHLShareLifecycle+A4Share.h in Headers */ = {isa = PBXBuildFile; fileRef = E57AA888DE313445AD4F4A0141E4548F /* GHLShareLifecycle+A4Share.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87E107E012E648F8EEBA1243A2DC0EB5 /* GHLApplicationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B793D9B75D779C944ABC1E86662850C6 /* GHLApplicationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		892E3A2FEBE65DE3D00C7301C265B98A /* GHLApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D39324B8BB82EA0CFF92E64C0EC307B /* GHLApplicationDelegate.m */; };
 		94A77F0A7438F54424A708C4EDD05567 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91D11966FE31EAB91603DF5FB6E0B50 /* Foundation.framework */; };
-		9AC9F9AACEF8AB4D060D0A97373DF820 /* LBApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1FC625DB05DB7935DAB3B6B280BA81 /* LBApplicationDelegate.m */; };
+		969B66AD86CDA8F9D2FC17A858DB2239 /* GHLShareLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C692426021D4A6D18F334DFF63E74 /* GHLShareLifecycle.m */; };
 		A10985C4C8119146834F07D9C2E50B07 /* GHLShareLifecycle+BLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C7ABD6B065FA121E7FA243BA1244B8 /* GHLShareLifecycle+BLifecycle.m */; };
-		ACBC557C5FCCD826C912121C27D7A463 /* LBLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 049EF7C30D270BA03F199B1D5F2E78C3 /* LBLifecycle.m */; };
-		B44421C90D2B2ADC824A0FA028986C8A /* LBApplicationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E3D0C3E1130D245064490BF6F23A9A8E /* LBApplicationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B74756C6CC750EECCA09A4FC4C2B2D5E /* GHLShareLifecycle+ALifecycle.h in Headers */ = {isa = PBXBuildFile; fileRef = F4672B72B49DE78060D533C00675538A /* GHLShareLifecycle+ALifecycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE41B3C3B93AD743655A00FBAC4E8919 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91D11966FE31EAB91603DF5FB6E0B50 /* Foundation.framework */; };
 		BE4E83B1A946C485C862E8A34A6825F2 /* GHLShareLifecycle+BLifecycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD446C5ECDD4B2711044F582696AACD /* GHLShareLifecycle+BLifecycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,7 +43,7 @@
 		E4C7205AD296D65EF3FF403818D864BA /* GHLShareLifecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812CE7717D263B5BBED8A60E03A72552 /* GHLShareLifecycle.framework */; };
 		E991B791E3214DD34771AF611D300C13 /* BLifscycle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC97CAD8EFC60918916AF87ED72C641 /* BLifscycle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F28729D4CAB345B087EECA8751B1D8AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91D11966FE31EAB91603DF5FB6E0B50 /* Foundation.framework */; };
-		F3967B3C25725B5FFB992655D5D75429 /* LBLifecycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB5A474B62365BF291FC835A92267CB /* LBLifecycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4135DC6E342BF63AD472F21727E2FE0 /* GHLLifecycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 20476927D4A56CF936AE07E672D5A7CE /* GHLLifecycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4B9AF43AC6B697E8566DBAC36889BA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91D11966FE31EAB91603DF5FB6E0B50 /* Foundation.framework */; };
 		F71B058DF75BC45F5FF81DE583DD7FDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91D11966FE31EAB91603DF5FB6E0B50 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -123,44 +123,42 @@
 
 /* Begin PBXFileReference section */
 		03C7ABD6B065FA121E7FA243BA1244B8 /* GHLShareLifecycle+BLifecycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GHLShareLifecycle+BLifecycle.m"; path = "BLifscycle/Classes/GHLShareLifecycle+BLifecycle.m"; sourceTree = "<group>"; };
-		049EF7C30D270BA03F199B1D5F2E78C3 /* LBLifecycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBLifecycle.m; path = GHLShareLifecycle/Classes/LBLifecycle.m; sourceTree = "<group>"; };
 		0859B134D021E7EA065DCCE7B065B84C /* ALifscycle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ALifscycle.modulemap; sourceTree = "<group>"; };
-		0C2C7F147B2EC35597CFC9DB3429F27D /* GHLShareLifecycle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GHLShareLifecycle-Info.plist"; sourceTree = "<group>"; };
 		0C30A12DAF18A42DEE15BBF2DCCD12FF /* Pods-GHLShareLifecycle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHLShareLifecycle_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0DDE1C9D4FC0CEFE3BDEA527ECFE0762 /* Pods-GHLShareLifecycle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GHLShareLifecycle_Example-dummy.m"; sourceTree = "<group>"; };
 		0ECEE82FDFAC12405CDE83F0F4BCBA19 /* a4ifecycle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "a4ifecycle-umbrella.h"; sourceTree = "<group>"; };
-		10C62FB026979B47B5B5EE0F9C7992CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		13273D82C94B63436B3A79BD76E17CB0 /* Pods-GHLShareLifecycle_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHLShareLifecycle_Example-Info.plist"; sourceTree = "<group>"; };
-		156B98355819E2A05775E39A136D33AB /* GHLShareLifecycle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHLShareLifecycle-umbrella.h"; sourceTree = "<group>"; };
+		165686D063827CB6A237A02838A8D90C /* GHLLifecycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLLifecycle.m; path = GHLShareLifecycle/Classes/GHLLifecycle.m; sourceTree = "<group>"; };
+		17AB1F77F570FEF566843281704CE1E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		19A8F53BE555AF120BEF57FE59763CB3 /* Pods-GHLShareLifecycle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GHLShareLifecycle_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1BA2782F93D7707CA8B935CF73C961F4 /* Pods-GHLShareLifecycle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GHLShareLifecycle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1E7942D87D20F4B65162E30B426C6BDF /* A4ShareLifecycle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = A4ShareLifecycle.modulemap; sourceTree = "<group>"; };
-		1F1FC625DB05DB7935DAB3B6B280BA81 /* LBApplicationDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBApplicationDelegate.m; path = GHLShareLifecycle/Classes/LBApplicationDelegate.m; sourceTree = "<group>"; };
+		20476927D4A56CF936AE07E672D5A7CE /* GHLLifecycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLLifecycle.h; path = GHLShareLifecycle/Classes/GHLLifecycle.h; sourceTree = "<group>"; };
 		2A523FF76B8B49E9785AF3F4E734773E /* a4ifecycle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = a4ifecycle.xcconfig; sourceTree = "<group>"; };
 		2AAAF7DCA912DD5D0D4F9AAB77CDF679 /* ALifscycle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALifscycle-umbrella.h"; sourceTree = "<group>"; };
 		308D45B5299FEFF232C90EF8DC6B4B3B /* ALifscycle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALifscycle-dummy.m"; sourceTree = "<group>"; };
 		374F367FAF386462C39DB0945995701A /* a4ifecycle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = a4ifecycle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		38DD1E352CF08E3958A46F41D448C913 /* Pods-GHLShareLifecycle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GHLShareLifecycle_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3BD446C5ECDD4B2711044F582696AACD /* GHLShareLifecycle+BLifecycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GHLShareLifecycle+BLifecycle.h"; path = "BLifscycle/Classes/GHLShareLifecycle+BLifecycle.h"; sourceTree = "<group>"; };
-		42519017D769AD336198E23B35515E32 /* GHLShareLifecycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLShareLifecycle.h; path = GHLShareLifecycle/Classes/GHLShareLifecycle.h; sourceTree = "<group>"; };
 		43052FDD1D7F2AD8C3C2C8925EE5EAAA /* BLifscycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLifscycle.framework; path = BLifscycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4349C4837678B1920E461003231C1243 /* Pods-GHLShareLifecycle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GHLShareLifecycle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		47F80589B1CF3D410B6AED890C9C1A7E /* GHLShareLifecycle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHLShareLifecycle-dummy.m"; sourceTree = "<group>"; };
+		49259F0B876FE05B8456F96C294732CD /* GHLShareLifecycle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GHLShareLifecycle-Info.plist"; sourceTree = "<group>"; };
 		49BDF8F4D2F5E96806615C9A7E36EE2E /* BLifscycle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BLifscycle-Info.plist"; sourceTree = "<group>"; };
 		4BC97CAD8EFC60918916AF87ED72C641 /* BLifscycle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLifscycle-umbrella.h"; sourceTree = "<group>"; };
 		4D707D09551AF23AE794B0BD79D9EED1 /* Pods-GHLShareLifecycle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GHLShareLifecycle_Example.modulemap"; sourceTree = "<group>"; };
-		4FB5A474B62365BF291FC835A92267CB /* LBLifecycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBLifecycle.h; path = GHLShareLifecycle/Classes/LBLifecycle.h; sourceTree = "<group>"; };
-		525B413710AAC12B53167A757E225531 /* GHLShareLifecycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLShareLifecycle.m; path = GHLShareLifecycle/Classes/GHLShareLifecycle.m; sourceTree = "<group>"; };
+		501F37548AE3CE5F9F6542BA1F9A487D /* GHLShareLifecycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLShareLifecycle.h; path = GHLShareLifecycle/Classes/GHLShareLifecycle.h; sourceTree = "<group>"; };
 		535E3E297EC184E127C4209B6EE3B629 /* Pods-GHLShareLifecycle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHLShareLifecycle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		55A91480E7066CD628B57F694DC1D9A7 /* A4ShareLifecycle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "A4ShareLifecycle-dummy.m"; sourceTree = "<group>"; };
+		642389D665F4E4A453B7973971592780 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		65A53732521DC03B37DACA88E62E8292 /* A4ShareLifecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = A4ShareLifecycle.framework; path = A4ShareLifecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6682BE1D35D48CA3DBCCF15C426D1801 /* a4ifecycle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "a4ifecycle-Info.plist"; sourceTree = "<group>"; };
-		6C28F6CB37B6BB110874604A7EBB96CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7515208BDAFD12C124AEF2D4611A0601 /* GHLShareLifecycle+a4ifecycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GHLShareLifecycle+a4ifecycle.m"; path = "a4ifecycle/Classes/GHLShareLifecycle+a4ifecycle.m"; sourceTree = "<group>"; };
 		78BBA9ECAE1B1B497D5FFDB2DF666DFF /* a4ifecycle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "a4ifecycle-prefix.pch"; sourceTree = "<group>"; };
 		7AD1B44A191E10E9FE7B3E9299404926 /* A4ShareLifecycle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "A4ShareLifecycle-umbrella.h"; sourceTree = "<group>"; };
 		7C15C2F5271DEF7790D1FFBBE1D5257F /* BLifscycle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLifscycle-prefix.pch"; sourceTree = "<group>"; };
 		7D7108DB5CB9F96469CC2DD1F1D08DD1 /* GHLShareLifecycle+a4ifecycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GHLShareLifecycle+a4ifecycle.h"; path = "a4ifecycle/Classes/GHLShareLifecycle+a4ifecycle.h"; sourceTree = "<group>"; };
+		7E7E66C44B09BB7D457B34E91F170E02 /* GHLShareLifecycle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHLShareLifecycle.xcconfig; sourceTree = "<group>"; };
+		7F53D55839F0052F8A658120A1D28CD8 /* GHLShareLifecycle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHLShareLifecycle-prefix.pch"; sourceTree = "<group>"; };
 		809942952D6BE24866CF784BF0BB3F07 /* GHLShareLifecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GHLShareLifecycle.framework; path = GHLShareLifecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		812CE7717D263B5BBED8A60E03A72552 /* GHLShareLifecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GHLShareLifecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86470F32CA54D357544F910B3DDBD339 /* A4ShareLifecycle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "A4ShareLifecycle-Info.plist"; sourceTree = "<group>"; };
@@ -168,35 +166,37 @@
 		89B10FDD98BDA1CFA03C2F99D4B5D7D1 /* ALifscycle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALifscycle-prefix.pch"; sourceTree = "<group>"; };
 		8BB7B5D15350142F51B40DE40EB2B592 /* BLifscycle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLifscycle.xcconfig; sourceTree = "<group>"; };
 		8BC08991DA82468EF48DB77190FA6CA5 /* a4ifecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = a4ifecycle.framework; path = a4ifecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D39324B8BB82EA0CFF92E64C0EC307B /* GHLApplicationDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLApplicationDelegate.m; path = GHLShareLifecycle/Classes/GHLApplicationDelegate.m; sourceTree = "<group>"; };
 		8DB1C8BE05052E0E0B0BF4435B309511 /* Pods-GHLShareLifecycle_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GHLShareLifecycle_Example-umbrella.h"; sourceTree = "<group>"; };
 		9125052B6628AD7B0B5EB84D07DCC2F6 /* Pods_GHLShareLifecycle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GHLShareLifecycle_Example.framework; path = "Pods-GHLShareLifecycle_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C8DF4E998F69852524D41AAC1D65A7 /* ALifscycle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALifscycle.xcconfig; sourceTree = "<group>"; };
 		94D9722EBF448D3B744DA7807F2801C2 /* Pods-GHLShareLifecycle_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHLShareLifecycle_Tests-Info.plist"; sourceTree = "<group>"; };
+		96A9AA770EB3AAD20EFCBC915FC9D286 /* GHLShareLifecycle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHLShareLifecycle-dummy.m"; sourceTree = "<group>"; };
 		984798F68851A6F0E34A10C148D6EA73 /* BLifscycle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BLifscycle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0D07579EA8512BA54F5266FBB16EE86 /* ALifscycle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ALifscycle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4BE1274E1DDF6602D859F26C83D76A3 /* GHLShareLifecycle+A4Share.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GHLShareLifecycle+A4Share.m"; path = "A4ShareLifecycle/Classes/GHLShareLifecycle+A4Share.m"; sourceTree = "<group>"; };
 		AAA4E80E2FC8E80FF012684929D328F6 /* Pods-GHLShareLifecycle_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHLShareLifecycle_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AF97BFD024CF6D98FA23B888FC8C4B25 /* a4ifecycle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "a4ifecycle-dummy.m"; sourceTree = "<group>"; };
+		B793D9B75D779C944ABC1E86662850C6 /* GHLApplicationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLApplicationDelegate.h; path = GHLShareLifecycle/Classes/GHLApplicationDelegate.h; sourceTree = "<group>"; };
 		B85542B50069DF8C053C7018EB4F059B /* Pods-GHLShareLifecycle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHLShareLifecycle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA1B610663D4FD156EA9F3476ACC2C0C /* GHLShareLifecycle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHLShareLifecycle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BBD90C8F040B20441EE09F67F319018F /* BLifscycle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLifscycle-dummy.m"; sourceTree = "<group>"; };
+		BDC603BF488ADAC7C6E537F3EFDA7435 /* GHLShareLifecycle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GHLShareLifecycle.modulemap; sourceTree = "<group>"; };
+		C99C692426021D4A6D18F334DFF63E74 /* GHLShareLifecycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLShareLifecycle.m; path = GHLShareLifecycle/Classes/GHLShareLifecycle.m; sourceTree = "<group>"; };
 		CAC696858A6C7902343584D140BD3C06 /* BLifscycle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BLifscycle.modulemap; sourceTree = "<group>"; };
 		CB686655584FFCDA91BA61AD3DEAC629 /* Pods-GHLShareLifecycle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GHLShareLifecycle_Tests.modulemap"; sourceTree = "<group>"; };
 		D20618123CB327EC208479987E00C1B9 /* A4ShareLifecycle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = A4ShareLifecycle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D64DD607DE08FA21ACFB382C61BDAC18 /* A4ShareLifecycle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "A4ShareLifecycle-prefix.pch"; sourceTree = "<group>"; };
-		D8693A4CE6B804E0CBF3B66111D00808 /* GHLShareLifecycle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHLShareLifecycle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E00A1CC9DD9E7BE4C7D54D755F9DAB8D /* Pods_GHLShareLifecycle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GHLShareLifecycle_Tests.framework; path = "Pods-GHLShareLifecycle_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E39F2FF0FFF0DBE3F53FCD8DFE29454A /* ALifscycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ALifscycle.framework; path = ALifscycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3D0C3E1130D245064490BF6F23A9A8E /* LBApplicationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBApplicationDelegate.h; path = GHLShareLifecycle/Classes/LBApplicationDelegate.h; sourceTree = "<group>"; };
 		E4C0E9305C5C77F55DB80C6D2B2F4C99 /* Pods-GHLShareLifecycle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHLShareLifecycle_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E57AA888DE313445AD4F4A0141E4548F /* GHLShareLifecycle+A4Share.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GHLShareLifecycle+A4Share.h"; path = "A4ShareLifecycle/Classes/GHLShareLifecycle+A4Share.h"; sourceTree = "<group>"; };
-		E99AC5655FC8C06DECC798CE911B5133 /* GHLShareLifecycle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GHLShareLifecycle.modulemap; sourceTree = "<group>"; };
 		EA53C9BA1703BBD9B1F1065F676449F7 /* ALifscycle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ALifscycle-Info.plist"; sourceTree = "<group>"; };
-		EC2E081073EE2FB87AC43C1E868D282C /* GHLShareLifecycle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHLShareLifecycle-prefix.pch"; sourceTree = "<group>"; };
 		EF0E93E1462546640D0CCF50B8BFFCF7 /* Pods-GHLShareLifecycle_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GHLShareLifecycle_Tests-dummy.m"; sourceTree = "<group>"; };
 		F433CA91C94015C9CD26BD3172EE0958 /* Pods-GHLShareLifecycle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHLShareLifecycle_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F4672B72B49DE78060D533C00675538A /* GHLShareLifecycle+ALifecycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GHLShareLifecycle+ALifecycle.h"; path = "ALifscycle/Classes/GHLShareLifecycle+ALifecycle.h"; sourceTree = "<group>"; };
-		F5ABEDDD05388CA52D4C280B8D03678A /* GHLShareLifecycle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHLShareLifecycle.xcconfig; sourceTree = "<group>"; };
+		F7631C6CFA2DB295EB83520168248661 /* GHLShareLifecycle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHLShareLifecycle-umbrella.h"; sourceTree = "<group>"; };
 		F91D11966FE31EAB91603DF5FB6E0B50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FDD13FFC85471B489B8F286F66E7CDF0 /* A4ShareLifecycle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = A4ShareLifecycle.xcconfig; sourceTree = "<group>"; };
 		FF7561A7D5B03C58F4B49A6FB68FDA9D /* a4ifecycle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = a4ifecycle.modulemap; sourceTree = "<group>"; };
@@ -287,9 +287,25 @@
 				15C9598405045EAE8B3217D2CCC060DC /* A4ShareLifecycle */,
 				CE99E5CBDC98AE34BCF5A7691D8E2B6B /* ALifscycle */,
 				E99DA19198DE7246A5D163F6DB34D8C5 /* BLifscycle */,
-				4A2518D6B7CAC8DD75365D05B99B6AFB /* GHLShareLifecycle */,
+				0DB11E6A4B027D20893B4194197B7E3C /* GHLShareLifecycle */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0DB11E6A4B027D20893B4194197B7E3C /* GHLShareLifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				B793D9B75D779C944ABC1E86662850C6 /* GHLApplicationDelegate.h */,
+				8D39324B8BB82EA0CFF92E64C0EC307B /* GHLApplicationDelegate.m */,
+				20476927D4A56CF936AE07E672D5A7CE /* GHLLifecycle.h */,
+				165686D063827CB6A237A02838A8D90C /* GHLLifecycle.m */,
+				501F37548AE3CE5F9F6542BA1F9A487D /* GHLShareLifecycle.h */,
+				C99C692426021D4A6D18F334DFF63E74 /* GHLShareLifecycle.m */,
+				B052F2336EEAF2C7075F7E83640DE60C /* Pod */,
+				7D6E4A7A7D9558DDDABAC610CD322CF7 /* Support Files */,
+			);
+			name = GHLShareLifecycle;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		0E20FB7B6F77740E99AA8EAE6DE7A5F4 /* Products */ = {
@@ -327,22 +343,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4A2518D6B7CAC8DD75365D05B99B6AFB /* GHLShareLifecycle */ = {
-			isa = PBXGroup;
-			children = (
-				42519017D769AD336198E23B35515E32 /* GHLShareLifecycle.h */,
-				525B413710AAC12B53167A757E225531 /* GHLShareLifecycle.m */,
-				E3D0C3E1130D245064490BF6F23A9A8E /* LBApplicationDelegate.h */,
-				1F1FC625DB05DB7935DAB3B6B280BA81 /* LBApplicationDelegate.m */,
-				4FB5A474B62365BF291FC835A92267CB /* LBLifecycle.h */,
-				049EF7C30D270BA03F199B1D5F2E78C3 /* LBLifecycle.m */,
-				F13D3CF6E40D61A03A271D22AFDCF951 /* Pod */,
-				BD7A5BB4342CF3399471F749AA67CA71 /* Support Files */,
-			);
-			name = GHLShareLifecycle;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		4BC376C55FD5530D6126AB0EA987B1FD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -355,6 +355,20 @@
 			);
 			name = "Support Files";
 			path = "../GHLShareLifecycle/Example/Pods/Target Support Files/ALifscycle";
+			sourceTree = "<group>";
+		};
+		7D6E4A7A7D9558DDDABAC610CD322CF7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDC603BF488ADAC7C6E537F3EFDA7435 /* GHLShareLifecycle.modulemap */,
+				7E7E66C44B09BB7D457B34E91F170E02 /* GHLShareLifecycle.xcconfig */,
+				96A9AA770EB3AAD20EFCBC915FC9D286 /* GHLShareLifecycle-dummy.m */,
+				49259F0B876FE05B8456F96C294732CD /* GHLShareLifecycle-Info.plist */,
+				7F53D55839F0052F8A658120A1D28CD8 /* GHLShareLifecycle-prefix.pch */,
+				F7631C6CFA2DB295EB83520168248661 /* GHLShareLifecycle-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GHLShareLifecycle";
 			sourceTree = "<group>";
 		};
 		84A00619B60470EC62D0175523B44D65 /* Pods-GHLShareLifecycle_Tests */ = {
@@ -433,6 +447,16 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		B052F2336EEAF2C7075F7E83640DE60C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BA1B610663D4FD156EA9F3476ACC2C0C /* GHLShareLifecycle.podspec */,
+				17AB1F77F570FEF566843281704CE1E7 /* LICENSE */,
+				642389D665F4E4A453B7973971592780 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		B1E9A7A72A7E97051E79DF7235FA9791 /* a4ifecycle */ = {
 			isa = PBXGroup;
 			children = (
@@ -468,20 +492,6 @@
 			);
 			name = "Pods-GHLShareLifecycle_Example";
 			path = "Target Support Files/Pods-GHLShareLifecycle_Example";
-			sourceTree = "<group>";
-		};
-		BD7A5BB4342CF3399471F749AA67CA71 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E99AC5655FC8C06DECC798CE911B5133 /* GHLShareLifecycle.modulemap */,
-				F5ABEDDD05388CA52D4C280B8D03678A /* GHLShareLifecycle.xcconfig */,
-				47F80589B1CF3D410B6AED890C9C1A7E /* GHLShareLifecycle-dummy.m */,
-				0C2C7F147B2EC35597CFC9DB3429F27D /* GHLShareLifecycle-Info.plist */,
-				EC2E081073EE2FB87AC43C1E868D282C /* GHLShareLifecycle-prefix.pch */,
-				156B98355819E2A05775E39A136D33AB /* GHLShareLifecycle-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GHLShareLifecycle";
 			sourceTree = "<group>";
 		};
 		C7A3AA41284FA5E39DDAB8DD4525AF98 /* Targets Support Files */ = {
@@ -528,16 +538,6 @@
 			path = ../../../BLifscycle;
 			sourceTree = "<group>";
 		};
-		F13D3CF6E40D61A03A271D22AFDCF951 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D8693A4CE6B804E0CBF3B66111D00808 /* GHLShareLifecycle.podspec */,
-				6C28F6CB37B6BB110874604A7EBB96CB /* LICENSE */,
-				10C62FB026979B47B5B5EE0F9C7992CF /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -556,17 +556,6 @@
 			files = (
 				1498D364CD8219919C9AF5299CAA7660 /* a4ifecycle-umbrella.h in Headers */,
 				C713E9122C55F3102A2E7536EF4519D0 /* GHLShareLifecycle+a4ifecycle.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		224C976146512F6D91B323F248D5ECE5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7F83ADC6E8F48C4FED82CB39B301D222 /* GHLShareLifecycle-umbrella.h in Headers */,
-				52F26A577EE83B48D119058D7982D11C /* GHLShareLifecycle.h in Headers */,
-				B44421C90D2B2ADC824A0FA028986C8A /* LBApplicationDelegate.h in Headers */,
-				F3967B3C25725B5FFB992655D5D75429 /* LBLifecycle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +582,17 @@
 			files = (
 				1E1B96BD695F3A2A90135B828AB35D78 /* ALifscycle-umbrella.h in Headers */,
 				B74756C6CC750EECCA09A4FC4C2B2D5E /* GHLShareLifecycle+ALifecycle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEDA581C74D0F19F71A00A23C37FBB2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E107E012E648F8EEBA1243A2DC0EB5 /* GHLApplicationDelegate.h in Headers */,
+				F4135DC6E342BF63AD472F21727E2FE0 /* GHLLifecycle.h in Headers */,
+				20D8D8738F598DFA15670322AE4CE884 /* GHLShareLifecycle-umbrella.h in Headers */,
+				3AEA8EB88B7AF60D81681DB67F021C3F /* GHLShareLifecycle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,8 +729,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D62FC993E7A94B69359A514AF95EA0C /* Build configuration list for PBXNativeTarget "GHLShareLifecycle" */;
 			buildPhases = (
-				224C976146512F6D91B323F248D5ECE5 /* Headers */,
-				FE09DB0F776428C025CDBC6A1BE40A87 /* Sources */,
+				BEDA581C74D0F19F71A00A23C37FBB2F /* Headers */,
+				0DE9A97009533E45C12D8355E054B9C0 /* Sources */,
 				C513190BC78FE1AB3965B8D55E8203B4 /* Frameworks */,
 				F6FAFE7C8469D1FD4376B6F46CF0B43F /* Resources */,
 			);
@@ -828,6 +828,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0DE9A97009533E45C12D8355E054B9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892E3A2FEBE65DE3D00C7301C265B98A /* GHLApplicationDelegate.m in Sources */,
+				4CD7E8AD60E2C7886918A7AAA5E5C6E5 /* GHLLifecycle.m in Sources */,
+				6CE36AFFE326A9BF8AAFE0EA134B931E /* GHLShareLifecycle-dummy.m in Sources */,
+				969B66AD86CDA8F9D2FC17A858DB2239 /* GHLShareLifecycle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3AF8725604E339BDE709D4047FFEE5C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -877,17 +888,6 @@
 			files = (
 				620FBE3BF24BB416C69B1F265D8DB18D /* a4ifecycle-dummy.m in Sources */,
 				3B7F93DAA4C698E16498638FB2F7DB54 /* GHLShareLifecycle+a4ifecycle.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE09DB0F776428C025CDBC6A1BE40A87 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37E0077B8C9308BED8A81DDFC8D6FCE8 /* GHLShareLifecycle-dummy.m in Sources */,
-				5F3115BCC0C710AC21A82B9319F10CE4 /* GHLShareLifecycle.m in Sources */,
-				9AC9F9AACEF8AB4D060D0A97373DF820 /* LBApplicationDelegate.m in Sources */,
-				ACBC557C5FCCD826C912121C27D7A463 /* LBLifecycle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -990,7 +990,7 @@
 		};
 		419E307C7D83F46CEF4AA6766FBBF14E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5ABEDDD05388CA52D4C280B8D03678A /* GHLShareLifecycle.xcconfig */;
+			baseConfigurationReference = 7E7E66C44B09BB7D457B34E91F170E02 /* GHLShareLifecycle.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1501,7 +1501,7 @@
 		};
 		F08BE54886CEA77247C2B154D52757FF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5ABEDDD05388CA52D4C280B8D03678A /* GHLShareLifecycle.xcconfig */;
+			baseConfigurationReference = 7E7E66C44B09BB7D457B34E91F170E02 /* GHLShareLifecycle.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

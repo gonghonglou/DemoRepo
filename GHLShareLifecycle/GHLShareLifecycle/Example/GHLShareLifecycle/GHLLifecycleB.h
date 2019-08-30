@@ -6,11 +6,11 @@
 //  Copyright © 2019 gonghonglou. All rights reserved.
 //
 
-#import <GHLShareLifecycle/LBLifecycle.h>
+#import <GHLShareLifecycle/GHLLifecycle.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GHLLifecycleB : LBLifecycle
+@interface GHLLifecycleB : GHLLifecycle
 
 @end
 
