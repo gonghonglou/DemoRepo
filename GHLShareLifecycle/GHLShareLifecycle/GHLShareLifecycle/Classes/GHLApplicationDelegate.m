@@ -115,7 +115,7 @@ static NSString * const kGHLLifecycleClass = @"ghl_lifecycle_class";
         return [[self class] instanceMethodSignatureForSelector:@selector(doNothing)];
     }
     
-    return [NSMethodSignature signatureWithObjCTypes:methodDesc.types];;
+    return [NSMethodSignature signatureWithObjCTypes:methodDesc.types];
 }
 
 - (void)forwardInvocation:(NSInvocation *)anInvocation {
