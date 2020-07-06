@@ -11,9 +11,10 @@
 @implementation NSDictionary (GHLCrashGuard)
 
 + (void)load {
-    
-    // [NSArray alloc]
-    [NSClassFromString(@"__NSPlaceholderArray") jr_swizzleMethod:@selector(initWithObjects:forKeys:count:) withMethod:@selector(initWithObjects_guard:forKeys:count:) error:nil];
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+//        [NSClassFromString(@"NSDictionary") jr_swizzleMethod:@selector(dictionaryWithObjects:forKeys:count:) withMethod:@selector(guard_dictionaryWithObjects:forKeys:count:) error:nil];
+    });
 }
 
 - (instancetype)initWithObjects_guard:(id *)objects forKeys:(id<NSCopying> *)keys count:(NSUInteger)cnt {
